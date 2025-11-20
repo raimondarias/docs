@@ -68,8 +68,8 @@
     }
   },
   "logo": {
-    "light": "/logo/dark.svg",
-    "dark": "/logo/dark.svg"
+    "light": "/logo/xerohost.svg",
+    "dark": "/logo/xerohost.svg"
   },
   "navbar": {
     "links": [
