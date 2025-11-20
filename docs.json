@@ -11,44 +11,25 @@
   "navigation": {
     "tabs": [
       {
-        "tab": "Guides",
+        "tab": "Guides ES",
         "groups": [
           {
             "group": "Getting started",
             "pages": [
-              "index",
-              "quickstart",
-              "development"
+              "index"
             ]
           },
           {
-            "group": "Customization",
+            "group": "FAQ / Knowledge Base",
             "pages": [
-              "essentials/settings",
-              "essentials/navigation"
-            ]
-          },
-          {
-            "group": "Writing content",
-            "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/reusable-snippets"
-            ]
-          },
-          {
-            "group": "AI tools",
-            "pages": [
-              "ai-tools/cursor",
-              "ai-tools/claude-code",
-              "ai-tools/windsurf"
+              "guides-es/settings",
+              "guides-es/navigation"
             ]
           }
         ]
       },
       {
-        "tab": "Account and Billing",
+        "tab": "Guides EN",
         "groups": []
       }
     ],
@@ -68,8 +49,8 @@
     }
   },
   "logo": {
-    "light": "/logo/xerohost.svg",
-    "dark": "/logo/xerohost.svg"
+    "light": "/logo/xerohost.png",
+    "dark": "/logo/xerohost.png"
   },
   "navbar": {
     "links": [
