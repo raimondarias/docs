@@ -62,12 +62,7 @@
         "label": "VPS Panel",
         "href": "https://vps.xerohost.net"
       }
-    ],
-    "primary": {
-      "type": "button",
-      "label": "Website",
-      "href": "https://www.xerohost.net"
-    }
+    ]
   },
   "contextual": {
     "options": [
