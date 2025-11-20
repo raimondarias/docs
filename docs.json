@@ -11,7 +11,7 @@
   "navigation": {
     "tabs": [
       {
-        "tab": "Guides ES",
+        "tab": "Guides",
         "groups": [
           {
             "group": "Getting started",
@@ -22,15 +22,11 @@
           {
             "group": "FAQ / Knowledge Base",
             "pages": [
-              "guides-es/settings",
-              "guides-es/navigation"
+              "guides/inicio",
+              "guides/navigation"
             ]
           }
         ]
-      },
-      {
-        "tab": "Guides EN",
-        "groups": []
       }
     ],
     "global": {
