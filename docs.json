@@ -49,23 +49,7 @@
       },
       {
         "tab": "API reference",
-        "groups": [
-          {
-            "group": "API documentation",
-            "pages": [
-              "api-reference/introduction"
-            ]
-          },
-          {
-            "group": "Endpoint examples",
-            "pages": [
-              "api-reference/endpoint/get",
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete",
-              "api-reference/endpoint/webhook"
-            ]
-          }
-        ]
+        "groups": []
       }
     ],
     "global": {
@@ -84,7 +68,7 @@
     }
   },
   "logo": {
-    "light": "/logo/light.svg",
+    "light": "/logo/dark.svg",
     "dark": "/logo/dark.svg"
   },
   "navbar": {
@@ -102,21 +86,21 @@
   },
   "contextual": {
     "options": [
-     "copy",
-     "view",
-     "chatgpt",
-     "claude",
-     "perplexity",
-     "mcp",
-     "cursor",
-     "vscode"
-   ]
+      "copy",
+      "view",
+      "chatgpt",
+      "claude",
+      "perplexity",
+      "mcp",
+      "cursor",
+      "vscode"
+    ]
   },
   "footer": {
     "socials": {
-      "x": "https://x.com/mintlify",
-      "github": "https://github.com/mintlify",
-      "linkedin": "https://linkedin.com/company/mintlify"
+      "x": "https://x.com/xerohostes",
+      "youtube": "https://www.youtube.com/@XeroHosting",
+      "instagram": "https://www.instagram.com/xerohost/"
     }
   }
 }
