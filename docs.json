@@ -74,14 +74,19 @@
   "navbar": {
     "links": [
       {
-        "label": "Support",
-        "href": "mailto:hi@mintlify.com"
+        "label": "Discord Support",
+        "href": "https://discord.gg/xerohost"
       }
     ],
     "primary": {
       "type": "button",
-      "label": "Dashboard",
-      "href": "https://dashboard.mintlify.com"
+      "label": "Control Panel",
+      "href": "https://panel.xerohost.net"
+    },
+    "primary": {
+      "type": "button",
+      "label": "VPS Panel",
+      "href": "https://vps.xerohost.net"
     }
   },
   "contextual": {
