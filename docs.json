@@ -34,9 +34,9 @@
           {
             "group": "Minecraft",
             "pages": [
-              "minecraft/overview",
-              "billing/payments",
-              "billing/subscriptions"
+              "minecraft/java/activar-la-whitelist",
+              "minecraft/java/ajustar-la-viewdistance-y-simulationdistance",
+              "minecraft/java/cambiar-la-dificultad"
             ]
           }
         ]
