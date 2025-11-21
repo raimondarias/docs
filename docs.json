@@ -65,13 +65,9 @@
     ],
     "tabs": [
       {
-        "tab": "API reference",
+        "tab": "Control Panel",
         "icon": "square-terminal",
-        "pages": [
-          "api-reference/get",
-          "api-reference/post",
-          "api-reference/delete"
-        ]
+        "href": "https://panel.xerohost.net"
       }
     ]
   },
