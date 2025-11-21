@@ -12,7 +12,7 @@
   "navigation": {
     "dropdowns": [
       {
-        "dropdown": "Documentation",
+        "dropdown": "Account & Billing",
         "icon": "book",
         "description": "How to use the Example Co. product",
         "groups": [
@@ -32,9 +32,9 @@
             ]
           },
           {
-            "group": "Billing",
+            "group": "Minecraft",
             "pages": [
-              "billing/overview",
+              "minecraft/overview",
               "billing/payments",
               "billing/subscriptions"
             ]
@@ -47,6 +47,38 @@
         "description": "Updates and changes",
         "pages": [
           "changelog"
+        ]
+      },
+      {
+        "dropdown": "Test",
+        "icon": "square-terminal",
+        "menu": [
+          {
+            "item": "API reference",
+            "icon": "rocket",
+            "groups": [
+              {
+                "group": "Core endpoints",
+                "icon": "square-terminal",
+                "pages": [
+                  "api-reference/get",
+                  "api-reference/post",
+                  "api-reference/delete"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "tabs": [
+      {
+        "tab": "API reference",
+        "icon": "square-terminal",
+        "pages": [
+          "api-reference/get",
+          "api-reference/post",
+          "api-reference/delete"
         ]
       }
     ]
@@ -67,11 +99,13 @@
       },
       {
         "label": "Discord Community",
+        "icon": "discord",
         "href": "https://discord.gg/xerohost"
       }
     ],
     "primary": {
       "type": "button",
+      "icon": "user",
       "label": "Login",
       "href": "https://billing.xerohost.net/login"
     }
