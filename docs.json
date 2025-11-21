@@ -150,9 +150,9 @@
   "contextual": {
     "options": [
       "copy",
-      "view",
       "chatgpt",
-      "claude"
+      "claude",
+      "perplexity"
     ]
   },
   "errors": {
