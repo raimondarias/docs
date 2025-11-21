@@ -1,13 +1,14 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "almond",
-  "name": "Example Co.",
-  "description": "Example Co. is a company that provides example content and placeholder text.",
+  "name": "XeroHost Knowledge Base",
+  "description": "XeroHost Knowledge Base",
   "colors": {
     "primary": "#ff3429",
     "light": "#c90707",
     "dark": "#b53c3c"
   },
+  "favicon": "/favicon.png",
   "navigation": {
     "dropdowns": [
       {
