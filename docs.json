@@ -10,6 +10,13 @@
   },
   "favicon": "/favicon.png",
   "navigation": {
+    "pages": [
+      "settings",
+      "pages",
+      "navigation",
+      "themes",
+      "custom-domain"
+    ],
     "dropdowns": [
       {
         "dropdown": "Account & Billing",
