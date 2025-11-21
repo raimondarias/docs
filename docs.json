@@ -24,14 +24,6 @@
             ]
           },
           {
-            "group": "Customization",
-            "pages": [
-              "settings",
-              "users",
-              "features"
-            ]
-          },
-          {
             "group": "Minecraft",
             "pages": [
               "minecraft/java/activar-la-whitelist",
