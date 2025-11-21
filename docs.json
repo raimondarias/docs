@@ -40,27 +40,6 @@
         "pages": [
           "changelog"
         ]
-      },
-      {
-        "dropdown": "Test",
-        "icon": "square-terminal",
-        "menu": [
-          {
-            "item": "Hola1",
-            "icon": "rocket",
-            "groups": [
-              {
-                "group": "Core endpoints",
-                "icon": "square-terminal",
-                "pages": [
-                  "minecraft/java/activar-la-whitelist",
-                  "minecraft/java/ajustar-la-viewdistance-y-simulationdistance",
-                  "minecraft/java/cambiar-la-dificultad"
-                ]
-              }
-            ]
-          }
-        ]
       }
     ],
     "tabs": [
