@@ -58,7 +58,15 @@
   "navbar": {
     "links": [
       {
-        "label": "Discord",
+        "label": "Control Panel",
+        "href": "https://panel.xerohost.net"
+      },
+      {
+        "label": "VPS Panel",
+        "href": "https://vps.xerohost.net"
+      },
+      {
+        "label": "Discord Community",
         "href": "https://discord.gg/xerohost"
       }
     ],
