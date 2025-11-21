@@ -29,6 +29,7 @@
           },
           {
             "group": "FAQ / Knowledge Base",
+            "expanded": true,
             "pages": [
               "guides/inicio",
               "guides/navigation"
