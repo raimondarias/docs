@@ -1,13 +1,13 @@
 {
   "$schema": "https://mintlify.com/docs.json",
-  "theme": "almond",
-  "name": "XeroHost Knowledge Base",
+  "theme": "maple",
+  "name": "Example Co.",
+  "description": "Example Co. is a company that provides example content and placeholder text.",
   "colors": {
-    "primary": "#ff3429",
-    "light": "#c90707",
-    "dark": "#b53c3c"
+    "primary": "#3B82F6",
+    "light": "#F8FAFC",
+    "dark": "#0F172A"
   },
-  "favicon": "/favicon.svg",
   "navigation": {
     "dropdowns": [
       {
@@ -18,7 +18,8 @@
           {
             "group": "Getting started",
             "pages": [
-              "index"
+              "index",
+              "quickstart"
             ]
           },
           {
@@ -50,39 +51,29 @@
     ]
   },
   "logo": {
-    "light": "/logo/xerohost.png",
-    "dark": "/logo/xerohost.png"
+    "light": "/logo-light.svg",
+    "dark": "/logo-dark.svg",
+    "href": "https://example.com"
   },
   "navbar": {
     "links": [
       {
-        "label": "Discord Support",
-        "href": "https://discord.gg/xerohost"
-      },
-      {
-        "label": "Control Panel",
-        "href": "https://panel.xerohost.net"
-      },
-      {
-        "label": "VPS Panel",
-        "href": "https://vps.xerohost.net"
+        "label": "Community",
+        "href": "https://example.com/community"
       }
-    ]
-  },
-  "contextual": {
-    "options": [
-      "copy",
-      "chatgpt",
-      "claude",
-      "perplexity"
-    ]
+    ],
+    "primary": {
+      "type": "button",
+      "label": "Get Started",
+      "href": "https://example.com/start"
+    }
   },
   "footer": {
     "socials": {
-      "x": "https://x.com/xerohostes",
-      "youtube": "https://www.youtube.com/@xerohosting",
-      "instagram": "https://www.instagram.com/xerohost/",
-      "discord": "https://discord.gg/xerohost"
+      "x": "https://x.com/example",
+      "linkedin": "https://www.linkedin.com/company/example",
+      "github": "https://github.com/example",
+      "slack": "https://example.com/community"
     },
     "links": [
       {
@@ -120,5 +111,32 @@
         ]
       }
     ]
+  },
+  "integrations": {
+    "ga4": {
+      "measurementId": "G-XXXXXXXXXX"
+    },
+    "telemetry": {
+      "enabled": true
+    },
+    "cookies": {
+      "key": "example_cookie_key",
+      "value": "example_cookie_value"
+    }
+  },
+  "contextual": {
+    "options": [
+      "copy",
+      "view",
+      "chatgpt",
+      "claude"
+    ]
+  },
+  "errors": {
+    "404": {
+      "redirect": false,
+      "title": "I can't be found",
+      "description": "What ever **happened** to this _page_?"
+    }
   }
 }
