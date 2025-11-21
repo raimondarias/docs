@@ -57,55 +57,79 @@
   "navbar": {
     "links": [
       {
-        "label": "Community",
-        "href": "https://example.com/community"
+        "label": "Discord",
+        "href": "https://discord.gg/xerohost"
       }
     ],
     "primary": {
       "type": "button",
-      "label": "Get Started",
-      "href": "https://example.com/start"
+      "label": "Login",
+      "href": "https://billing.xerohost.net/login"
     }
   },
   "footer": {
     "socials": {
-      "x": "https://x.com/example",
-      "linkedin": "https://www.linkedin.com/company/example",
-      "github": "https://github.com/example",
-      "slack": "https://example.com/community"
+      "x": "https://x.com/xerohostes",
+      "youtube": "https://www.youtube.com/@xerohosting",
+      "instagram": "https://www.instagram.com/xerohost/",
+      "discord": "https://discord.gg/xerohost"
     },
     "links": [
       {
-        "header": "Resources",
+        "header": "Productos",
         "items": [
           {
-            "label": "Customers",
-            "href": "https://example.com/customers"
+            "label": "Eco Games Servers (US)",
+            "href": "https://billing.xerohost.net/store/eco-games-servers-us"
           },
           {
-            "label": "Enterprise",
-            "href": "https://example.com/enterprise"
+            "label": "Games Servers (US)",
+            "href": "https://billing.xerohost.net/store/games-servers-us"
           },
           {
-            "label": "Request Preview",
-            "href": "https://example.com/preview"
+            "label": "Games Servers (BR)",
+            "href": "https://billing.xerohost.net/store/games-servers-br"
+          },
+          {
+            "label": "Bot Servers",
+            "href": "https://billing.xerohost.net/store/bot-servers"
+          },
+          {
+            "label": "FiveM Servers",
+            "href": "https://billing.xerohost.net/store/fivem-servers"
+          },
+          {
+            "label": "VPS Servers (US)",
+            "href": "https://billing.xerohost.net/store/vps-servers-us"
+          },
+          {
+            "label": "VPS Servers (BR)",
+            "href": "https://billing.xerohost.net/store/vps-servers-br"
+          },
+          {
+            "label": "Dedicated Servers",
+            "href": "https://billing.xerohost.net/store/dedicated-servers"
           }
         ]
       },
       {
-        "header": "Company",
+        "header": "Compañía",
         "items": [
           {
-            "label": "Careers",
-            "href": "https://example.com/careers"
+            "label": "Sobre Nosotros",
+            "href": "https://www.xerohost.net/about-us"
           },
           {
-            "label": "Blog",
-            "href": "https://example.com/blog"
+            "label": "Términos de servicio",
+            "href": "https://www.xerohost.net/terms"
           },
           {
-            "label": "Privacy Policy",
-            "href": "https://example.com/legal/privacy"
+            "label": "Política de Privacidad",
+            "href": "https://www.xerohost.net/privacy-policy"
+          },
+          {
+            "label": "Centro de Confianza",
+            "href": "https://www.trustpilot.com/review/xerohost.net"
           }
         ]
       }
