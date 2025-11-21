@@ -1,19 +1,19 @@
 ---
-title: "Instalación y Configuración de GeyserMC y Floodgate (Bedrock en Java)"
+title: "Cómo instalar y configurar GeyserMC y Floodgate"
 description: "GeyserMC permite la conexión de jugadores de Minecraft Bedrock Edition a tu servidor de Java Edition. Floodgate elimina la necesidad de que los jugadores de Bedrock tengan una cuenta premium de Java, facilitando el juego multiplataforma."
-sidebarTitle: "Instalar Geyser/Floodgate"
+sidebarTitle: "Instalar Geyser & Floodgate"
 ---
 
 ### Descargar y subir los plugins
 
 1. Descarga los archivos **GeyserMC** y **Floodgate** adecuados para la plataforma de tu servidor (Spigot, Paper, Velocity, Fabric, NeoForge) desde sus sitios oficiales.
 
-   | Plataforma   | Enlace de descarga                                                                                                                                                                                                                   |
-   | :----------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-   | Spigot/Paper | [⬇️ Geyser](https://download.geysermc.org/v2/projects/geyser/versions/latest/builds/latest/downloads/spigot)  [⬇️ Floodgate](https://download.geysermc.org/v2/projects/floodgate/versions/latest/builds/latest/downloads/spigot)     |
-   | Velocity     | [⬇️ Geyser](https://download.geysermc.org/v2/projects/geyser/versions/latest/builds/latest/downloads/velocity)  [⬇️ Floodgate](https://download.geysermc.org/v2/projects/floodgate/versions/latest/builds/latest/downloads/velocity) |
-   | Fabric       | [⬇️ Geyser](https://download.geysermc.org/v2/projects/geyser/versions/latest/builds/latest/downloads/fabric)  [⬇️ Floodgate](https://modrinth.com/mod/floodgate/versions?l=fabric)                                                   |
-   | NeoForge     | [⬇️ Geyser](https://download.geysermc.org/v2/projects/geyser/versions/latest/builds/latest/downloads/neoforge)  [⬇️ Floodgate](https://modrinth.com/mod/floodgate/versions?l=neoforge)                                               |
+   | Plataforma   | Enlace de descarga                                                                                                                                                                                                                       |
+   | :----------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+   | Spigot/Paper | [⬇️ Geyser](https://download.geysermc.org/v2/projects/geyser/versions/latest/builds/latest/downloads/spigot)  \|  [⬇️ Floodgate](https://download.geysermc.org/v2/projects/floodgate/versions/latest/builds/latest/downloads/spigot)     |
+   | Velocity     | [⬇️ Geyser](https://download.geysermc.org/v2/projects/geyser/versions/latest/builds/latest/downloads/velocity)  \|  [⬇️ Floodgate](https://download.geysermc.org/v2/projects/floodgate/versions/latest/builds/latest/downloads/velocity) |
+   | Fabric       | [⬇️ Geyser](https://download.geysermc.org/v2/projects/geyser/versions/latest/builds/latest/downloads/fabric)  \|  [⬇️ Floodgate](https://modrinth.com/mod/floodgate/versions?l=fabric)                                                   |
+   | NeoForge     | [⬇️ Geyser](https://download.geysermc.org/v2/projects/geyser/versions/latest/builds/latest/downloads/neoforge)  \|  [⬇️ Floodgate](https://modrinth.com/mod/floodgate/versions?l=neoforge)                                               |
 
 ### Accede al panal de control
 
@@ -44,7 +44,7 @@ Debes indicar a Geyser qué puerto usar para recibir conexiones de Bedrock y có
 
    ```yaml
    bedrock:
-     port: 19132 # Cambia este valor por el nuevo puerto de tu servidor
+     port: 19132 # Cambia este valor por el nuevo puerto
    ```
 4. Ajusta la sección `java:` para la conexión a tu servidor Java. **Es crucial** cambiar `online` a `floodgate` para que funcione la autenticación de Bedrock:
 
