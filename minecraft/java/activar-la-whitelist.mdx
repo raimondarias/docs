@@ -4,25 +4,30 @@ description: "La whitelist te permite controlar quién puede entrar a tu servido
 sidebarTitle: "Activar la Whitelist"
 ---
 
-### Paso 1: Accede al panel de control de tu servidor
+### Accede al panel de control de tu servidor
 
 1. Entra al panel de control de XeroHost: https://panel.xerohost.net
 2. Selecciona el servidor de Minecraft que deseas configurar.
 3. En el menú de la izquierda, dirígete a la sección **Console**.
 
-![Console Pn](/images/console.png)
+   ![Console Pn](/images/console.png)
 
-### Paso 2: Activa la whitelist
+### Activar/Desactivar la whitelist
 
 Para activar la whitelist, solo necesitas ejecutar un comando en la consola del servidor:
 
-1. En la línea de comandos, escribe lo siguiente y presiona **Enter**:
+1. Para activar la whitelist
 
    ```bash
    whitelist on
    ```
+2. Para desactivar la whitelist
 
-### Paso 3: Añade jugadores a la whitelist
+   ```bash
+   whitelist off
+   ```
+
+### Añadir jugador a la whitelist
 
 Ahora que la whitelist está activada, los jugadores que no estén en la lista no podrán unirse. Para añadir a tus amigos, usa el siguiente comando:
 
@@ -32,7 +37,7 @@ Ahora que la whitelist está activada, los jugadores que no estén en la lista n
    whitelist add nombre_del_jugador
    ```
 
-### Comandos útiles para la whitelist
+### Comandos extras
 
 - Para ver la lista de jugadores:
 
@@ -43,9 +48,4 @@ Ahora que la whitelist está activada, los jugadores que no estén en la lista n
 
   ```bash
   whitelist remove nombre_del_jugador
-  ```
-- Para desactivar la whitelist:
-
-  ```bash
-  whitelist off
   ```
