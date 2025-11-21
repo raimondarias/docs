@@ -1,12 +1,12 @@
 {
   "$schema": "https://mintlify.com/docs.json",
-  "theme": "maple",
+  "theme": "almond",
   "name": "Example Co.",
   "description": "Example Co. is a company that provides example content and placeholder text.",
   "colors": {
-    "primary": "#3B82F6",
-    "light": "#F8FAFC",
-    "dark": "#0F172A"
+    "primary": "#ff3429",
+    "light": "#c90707",
+    "dark": "#b53c3c"
   },
   "navigation": {
     "dropdowns": [
@@ -51,9 +51,8 @@
     ]
   },
   "logo": {
-    "light": "/logo-light.svg",
-    "dark": "/logo-dark.svg",
-    "href": "https://example.com"
+    "light": "/logo/xerohost.png",
+    "dark": "/logo/xerohost.png"
   },
   "navbar": {
     "links": [
