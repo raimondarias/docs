@@ -141,18 +141,6 @@
       }
     ]
   },
-  "integrations": {
-    "ga4": {
-      "measurementId": "G-XXXXXXXXXX"
-    },
-    "telemetry": {
-      "enabled": true
-    },
-    "cookies": {
-      "key": "example_cookie_key",
-      "value": "example_cookie_value"
-    }
-  },
   "contextual": {
     "options": [
       "copy",
@@ -164,8 +152,8 @@
   "errors": {
     "404": {
       "redirect": false,
-      "title": "I can't be found",
-      "description": "What ever **happened** to this _page_?"
+      "title": "No me pueden encontrar",
+      "description": "¿Qué habrá sido de esta _page_?"
     }
   }
 }
