@@ -1,0 +1,124 @@
+{
+  "$schema": "https://mintlify.com/docs.json",
+  "theme": "almond",
+  "name": "XeroHost Knowledge Base",
+  "colors": {
+    "primary": "#ff3429",
+    "light": "#c90707",
+    "dark": "#b53c3c"
+  },
+  "favicon": "/favicon.svg",
+  "navigation": {
+    "dropdowns": [
+      {
+        "dropdown": "Documentation",
+        "icon": "book",
+        "description": "How to use the Example Co. product",
+        "groups": [
+          {
+            "group": "Getting started",
+            "pages": [
+              "index"
+            ]
+          },
+          {
+            "group": "Customization",
+            "pages": [
+              "settings",
+              "users",
+              "features"
+            ]
+          },
+          {
+            "group": "Billing",
+            "pages": [
+              "billing/overview",
+              "billing/payments",
+              "billing/subscriptions"
+            ]
+          }
+        ]
+      },
+      {
+        "dropdown": "Changelog",
+        "icon": "history",
+        "description": "Updates and changes",
+        "pages": [
+          "changelog"
+        ]
+      }
+    ]
+  },
+  "logo": {
+    "light": "/logo/xerohost.png",
+    "dark": "/logo/xerohost.png"
+  },
+  "navbar": {
+    "links": [
+      {
+        "label": "Discord Support",
+        "href": "https://discord.gg/xerohost"
+      },
+      {
+        "label": "Control Panel",
+        "href": "https://panel.xerohost.net"
+      },
+      {
+        "label": "VPS Panel",
+        "href": "https://vps.xerohost.net"
+      }
+    ]
+  },
+  "contextual": {
+    "options": [
+      "copy",
+      "chatgpt",
+      "claude",
+      "perplexity"
+    ]
+  },
+  "footer": {
+    "socials": {
+      "x": "https://x.com/xerohostes",
+      "youtube": "https://www.youtube.com/@xerohosting",
+      "instagram": "https://www.instagram.com/xerohost/",
+      "discord": "https://discord.gg/xerohost"
+    },
+    "links": [
+      {
+        "header": "Resources",
+        "items": [
+          {
+            "label": "Customers",
+            "href": "https://example.com/customers"
+          },
+          {
+            "label": "Enterprise",
+            "href": "https://example.com/enterprise"
+          },
+          {
+            "label": "Request Preview",
+            "href": "https://example.com/preview"
+          }
+        ]
+      },
+      {
+        "header": "Company",
+        "items": [
+          {
+            "label": "Careers",
+            "href": "https://example.com/careers"
+          },
+          {
+            "label": "Blog",
+            "href": "https://example.com/blog"
+          },
+          {
+            "label": "Privacy Policy",
+            "href": "https://example.com/legal/privacy"
+          }
+        ]
+      }
+    ]
+  }
+}
