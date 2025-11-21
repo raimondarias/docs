@@ -80,10 +80,6 @@
         "header": "Productos",
         "items": [
           {
-            "label": "Eco Games Servers (US)",
-            "href": "https://billing.xerohost.net/store/eco-games-servers-us"
-          },
-          {
             "label": "Games Servers (US)",
             "href": "https://billing.xerohost.net/store/games-servers-us"
           },
