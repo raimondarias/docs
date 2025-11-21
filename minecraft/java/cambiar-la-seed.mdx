@@ -1,0 +1,44 @@
+---
+title: "Cómo cambiar la Seed (semilla) del Servidor"
+description: "Aprende a cambiar la Seed de tu servidor para generar un mundo completamente nuevo o uno con características geográficas específicas. Asegúrate de hacer una copia de seguridad antes de proceder."
+sidebarTitle: "Cambiar la Seed"
+---
+
+### Accede al panel de control
+
+1. Entra al panel de control de XeroHost: https://panel.xerohost.net
+2. Selecciona el servidor de Minecraft que deseas configurar.
+
+### Elimina los archivos del mundo antiguo
+
+Para que el servidor pueda generar un mundo nuevo con la nueva Seed, debes eliminar los archivos del mundo existente.
+
+1. Dirígete a la sección **Files**.
+2. Selecciona las siguientes carpetas y archivos, y luego haz clic en **Delete**:
+   - `world`
+   - `world_nether`
+   - `world_the_end`
+   > **⚠️ Importante:** Al eliminar los mundos actuales, esta acción no se puede revertir.
+
+### Cambia la Seed en las propiedades del servidor
+
+1. En el menú de la izquierda, ve a la sección **Properties**.
+
+   ![Properties](https://billing.xerohost.net/images/kb/69_scrnli_na38XDn6zDlSae.png)
+2. Busca la casilla llamada **level-seed**.
+3. En este campo, puedes escribir una nueva Seed. Si **dejas el campo vacío**, se generará una Seed completamente aleatoria.
+
+   ![Semilla](https://billing.xerohost.net/images/kb/21_scrnli_r82OE2bcoNGEBp.png)
+4. Una vez que hayas ingresado la Seed, haz clic en **Save** para guardar los cambios.
+
+### Inicia el servidor
+
+¡Y listo! Ya puedes iniciar tu servidor para que se genere el nuevo mundo.
+
+1. Dirígete a la pestaña **Console** y haz clic en **Start**.
+2. Espera a que el servidor se inicie y genere el nuevo mundo.
+
+### Notas importantes
+
+- **Mundo Nuevo:** Todos los edificios, objetos y el progreso de los jugadores se perderán a menos que hayas guardado una copia de seguridad.
+- **Errores:** Si el servidor no inicia correctamente, revisa que hayas eliminado correctamente los archivos del mundo antiguo y que la Seed no contenga caracteres especiales.
