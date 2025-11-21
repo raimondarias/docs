@@ -12,66 +12,40 @@
     "dropdowns": [
       {
         "dropdown": "Documentation",
-        "icon": "book-open",
-        "pages": [
-          "quickstart",
-          "development",
-          "navigation"
-        ]
-      },
-      {
-        "dropdown": "API reference",
-        "icon": "square-terminal",
-        "pages": [
-          "api-reference/get",
-          "api-reference/post",
-          "api-reference/delete"
-        ]
-      },
-      {
-        "dropdown": "Blog",
-        "href": "https://external-link.com/blog"
-      }
-    ],
-    "tabs": [
-      {
-        "tab": "Guides",
+        "icon": "book",
+        "description": "How to use the Example Co. product",
         "groups": [
           {
             "group": "Getting started",
-            "icon": "notebook-text",
             "pages": [
-              "index"
+              "index",
+              "quickstart"
             ]
           },
           {
-            "group": "FAQ / Knowledge Base",
-            "expanded": true,
+            "group": "Customization",
             "pages": [
-              "guides/inicio",
-              "guides/navigation"
+              "settings",
+              "users",
+              "features"
             ]
-          }
-        ]
-      }
-    ],
-    "languages": [
-      {
-        "language": "en",
-        "groups": [
+          },
           {
-            "group": "Getting started",
-            "pages": ["en/overview", "en/quickstart", "en/development"]
+            "group": "Billing",
+            "pages": [
+              "billing/overview",
+              "billing/payments",
+              "billing/subscriptions"
+            ]
           }
         ]
       },
       {
-        "language": "es",
-        "groups": [
-          {
-            "group": "Getting started",
-            "pages": ["es/overview", "es/quickstart", "es/development"]
-          }
+        "dropdown": "Changelog",
+        "icon": "history",
+        "description": "Updates and changes",
+        "pages": [
+          "changelog"
         ]
       }
     ],
