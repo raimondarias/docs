@@ -1,11 +1,11 @@
 {
   "$schema": "https://mintlify.com/docs.json",
-  "theme": "mint",
+  "theme": "almond",
   "name": "XeroHost Knowledge Base",
   "colors": {
     "primary": "#ff3429",
     "light": "#c90707",
-    "dark": "#801515"
+    "dark": "#b53c3c"
   },
   "favicon": "/favicon.svg",
   "navigation": {
