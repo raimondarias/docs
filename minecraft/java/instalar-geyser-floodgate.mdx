@@ -1,5 +1,60 @@
 ---
-title: 'New file'
-description: 'Description of your new file.'
+title: "Instalación y Configuración de GeyserMC y Floodgate (Bedrock en Java)"
+description: "GeyserMC permite la conexión de jugadores de Minecraft Bedrock Edition a tu servidor de Java Edition. Floodgate elimina la necesidad de que los jugadores de Bedrock tengan una cuenta premium de Java, facilitando el juego multiplataforma."
+sidebarTitle: "Instalar Geyser/Floodgate"
 ---
 
+### Descargar y subir los plugins
+
+1. Descarga los archivos **GeyserMC** y **Floodgate** adecuados para la plataforma de tu servidor (Spigot, Paper, Velocity, Fabric, NeoForge) desde sus sitios oficiales.
+
+   | Plataforma   | Enlace de descarga                                                                                                                                                                                                                   |
+   | :----------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+   | Spigot/Paper | [⬇️ Geyser](https://download.geysermc.org/v2/projects/geyser/versions/latest/builds/latest/downloads/spigot)  [⬇️ Floodgate](https://download.geysermc.org/v2/projects/floodgate/versions/latest/builds/latest/downloads/spigot)     |
+   | Velocity     | [⬇️ Geyser](https://download.geysermc.org/v2/projects/geyser/versions/latest/builds/latest/downloads/velocity)  [⬇️ Floodgate](https://download.geysermc.org/v2/projects/floodgate/versions/latest/builds/latest/downloads/velocity) |
+   | Fabric       | [⬇️ Geyser](https://download.geysermc.org/v2/projects/geyser/versions/latest/builds/latest/downloads/fabric)  [⬇️ Floodgate](https://modrinth.com/mod/floodgate/versions?l=fabric)                                                   |
+   | NeoForge     | [⬇️ Geyser](https://download.geysermc.org/v2/projects/geyser/versions/latest/builds/latest/downloads/neoforge)  [⬇️ Floodgate](https://modrinth.com/mod/floodgate/versions?l=neoforge)                                               |
+
+### Accede al panal de control
+
+2. Accede al panel de tu servidor: https://panel.xerohost.net.
+3. Ve a la sección **"Files"** y navega a la carpeta de **"plugins"**.
+4. Sube los archivos `.jar` de GeyserMC y Floodgate.
+5. **Reinicia el servidor** para que los plugins se instalen correctamente y generen sus archivos de configuración.
+
+### Crear un nuevo puerto para Bedrock
+
+Para que los jugadores de Bedrock puedan conectarse, Geyser necesita usar un puerto diferente al puerto principal de Java.
+
+1. En el panel de tu servidor, dirígete a la sección **"Network"**
+
+   ![Network](https://billing.xerohost.net/images/kb/112_scrnli_uJo3fCJNpY0r97.png)
+3. Selecciona **"Create Allocation"** para añadir un nuevo puerto.
+
+   ![Create allocation](https://billing.xerohost.net/images/kb/113_scrnli_9dlphM103Y1v8Z.png)
+5. Copia este nuevo puerto. Este será el puerto que usarán los jugadores de Bedrock.
+
+### Configurar GeyserMC
+
+Debes indicar a Geyser qué puerto usar para recibir conexiones de Bedrock y cómo conectarse de vuelta al servidor Java (usando Floodgate).
+
+1. Regresa a **"Files"** y busca la carpeta de configuración de Geyser: `plugins/geyser-spigot`.
+2. Abre y edita el archivo **config.yml**.
+3. Busca la sección `bedrock:` y cambia el valor del puerto por el que acabas de crear en el Paso 2:
+
+   ```yaml
+   bedrock:
+     port: 19132 # Cambia este valor por el nuevo puerto de tu servidor
+   ```
+4. Ajusta la sección `java:` para la conexión a tu servidor Java. **Es crucial** cambiar `online` a `floodgate` para que funcione la autenticación de Bedrock:
+
+   ```yaml
+   java:
+     auth-type: online # Reemplazalo por "floodgate"
+   ```
+5. Guarda los cambios y **reinicia el servidor**.
+
+### Notas importantes
+
+- **Rendimiento**: Asegúrate de que tu servidor tenga los recursos necesarios para manejar jugadores de ambas plataformas simultáneamente.
+- **Compatibilidad**: Ten en cuenta que algunas mecánicas de juego pueden diferir entre Bedrock y Java

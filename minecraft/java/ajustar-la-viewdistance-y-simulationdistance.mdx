@@ -4,42 +4,35 @@ description: "Ajustar la distancia de visión (**view distance**) y la distancia
 sidebarTitle: "Optimizar Distancias"
 ---
 
-### Paso 1: Acceder al Panel de Propiedades
+### Acceder al Panel de Propiedades
 
-Para modificar estas configuraciones, primero debes acceder al panel de propiedades de tu servidor.
+1. Entra al panel de control de XeroHost: https://panel.xerohost.net
+2. Selecciona el servidor de Minecraft que deseas configurar.
+3. En el menú de la izquierda, dirígete a la sección **"Properties"**.
 
-1.  En el panel de control de XeroHost, navega hasta la sección **MINECRAFT**.
-2.  Selecciona la opción **Properties**.
+   ![Menú de propiedades en el panel de control](https://billing.xerohost.net/images/kb/71_scrnli_na38XDn6zDlSae.png)
 
-![Menú de propiedades en el panel de control](https://billing.xerohost.net/images/kb/71_scrnli_na38XDn6zDlSae.png)
+### Ajustar la View Distance
 
----
+La **view distance** determina la cantidad de _chunks_ que el servidor le envía a cada jugador. Un valor más alto significa que los jugadores pueden ver más lejos, pero consume más recursos del servidor. Un valor de **10** es un buen punto de partida.
 
-### Paso 2: Ajustar la View Distance
+1. Busca la opción **view-distance** en el panel.
+2. Usa el campo para ingresar el número de _chunks_ deseado.
 
-La **view distance** determina la cantidad de *chunks* que el servidor le envía a cada jugador. Un valor más alto significa que los jugadores pueden ver más lejos, pero consume más recursos del servidor. Un valor de **10** es un buen punto de partida.
+   ![Campo para ajustar la distancia de visión](https://billing.xerohost.net/images/kb/72_scrnli_fh6ZV39ZaDW5Px.png)
 
-1.  Busca la opción **view-distance** en el panel.
-2.  Usa el campo para ingresar el número de *chunks* deseado.
+### Ajustar la Simulation Distance
 
-![Campo para ajustar la distancia de visión](https://billing.xerohost.net/images/kb/72_scrnli_fh6ZV39ZaDW5Px.png)
+La **simulation distance** es la distancia a la que el servidor simula la actividad del juego (crecimiento de cultivos, movimiento de entidades o _redstone_). Un valor más bajo reduce la carga de procesamiento del servidor.
 
----
+1. Busca la opción **simulation-distance**.
+2. Ingresa un valor menor que la _view distance_ para optimizar el rendimiento. Un valor de **8** es comúnmente recomendado.
 
-### Paso 3: Ajustar la Simulation Distance
+   ![Campo para ajustar la distancia de simulación](https://billing.xerohost.net/images/kb/73_scrnli_x8Hbqzy6Fdxlok.png)
 
-La **simulation distance** es la distancia a la que el servidor simula la actividad del juego (crecimiento de cultivos, movimiento de entidades o *redstone*). Un valor más bajo reduce la carga de procesamiento del servidor.
-
-1.  Busca la opción **simulation-distance**.
-2.  Ingresa un valor menor que la *view distance* para optimizar el rendimiento. Un valor de **8** es comúnmente recomendado.
-
-![Campo para ajustar la distancia de simulación](https://billing.xerohost.net/images/kb/73_scrnli_x8Hbqzy6Fdxlok.png)
-
----
-
-### Paso 4: Guardar los Cambios
+### Guardar los Cambios
 
 Una vez que hayas ajustado ambos valores, es vital que guardes la configuración.
 
-1.  Haz clic en el botón **Save** en la parte superior del panel.
-2.  Los cambios surtirán efecto después de que reinicies el servidor.
+1. Haz clic en el botón **Save** en la parte superior del panel.
+2. Los cambios surtirán efecto después de que reinicies el servidor.
