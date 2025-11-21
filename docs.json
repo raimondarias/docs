@@ -93,7 +93,7 @@
     ],
     "primary": {
       "type": "button",
-      "icon": "user",
+      "icon": "circle-user",
       "label": "Login",
       "href": "https://billing.xerohost.net/login"
     }
