@@ -26,16 +26,16 @@
           {
             "item": "General & Account",
             "icon": "book",
-            "groups": [
+            "dropdowns": [
               {
-                "group": "General",
+                "dropdown": "General",
                 "icon": "book",
                 "pages": [
                   "general/inicio"
                 ]
               },
               {
-                "group": "Account & Billing",
+                "dropdown": "Account & Billing",
                 "icon": "address-card",
                 "pages": [
                   "api-reference/get",
@@ -48,9 +48,9 @@
           {
             "item": "Minecraft",
             "icon": "pickaxe",
-            "groups": [
+            "dropdowns": [
               {
-                "group": "Minecraft Java",
+                "dropdown": "Minecraft Java",
                 "icon": "pickaxe",
                 "pages": [
                   "minecraft/java/activar-la-whitelist",
@@ -61,7 +61,7 @@
                 ]
               },
               {
-                "group": "Minecraft Bedrock",
+                "dropdown": "Minecraft Bedrock",
                 "icon": "cube",
                 "pages": [
                   "minecraft/bedrock/activar-la-whitelist",
@@ -184,9 +184,9 @@
   },
   "errors": {
     "404": {
-      "redirect": false,
+      "redirect": true,
       "title": "No me pueden encontrar",
-      "description": "¿Qué habrá sido de esta _page_?"
+      "description": "¿Qué habrá sido de esta página"
     }
   }
 }
