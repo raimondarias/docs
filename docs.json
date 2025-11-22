@@ -21,7 +21,7 @@
             "groups": [
               {
                 "group": "Core endpoints",
-                "icon": "square-terminal",
+                "icon": "book-open",
                 "pages": [
                   "api-reference/get",
                   "api-reference/post",
@@ -36,7 +36,7 @@
             "groups": [
               {
                 "group": "Minecraft",
-                "icon": "square-terminal",
+                "icon": "book-open",
                 "pages": [
                   {
                     "group": "Minecraft Java",
@@ -50,7 +50,7 @@
                   {
                     "group": "Minecraft Bedrock",
                     "pages": [
-                      "minecraft/java/activar-la-whitelist"
+                      "minecraft/bedrock/activar-la-whitelist"
                     ]
                   }
                 ]
