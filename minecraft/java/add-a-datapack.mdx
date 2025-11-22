@@ -4,17 +4,17 @@ description: "Guía paso a paso para añadir datapacks a tu servidor de Minecraf
 sidebarTitle: "Añadir un Datapack"
 ---
 
-Los datapacks te permiten añadir nuevas funcionalidades, logros, recetas y más a tu servidor sin necesidad de instalar mods.  
+Los datapacks te permiten añadir nuevas funcionalidades, logros, recetas y más a tu servidor sin necesidad de instalar mods.\
 A diferencia de los plugins y mods, los datapacks se añaden directamente al archivo del mundo.
 
-### Paso 1: Detener el servidor
+### Detener el servidor
 
-Antes de añadir o modificar cualquier archivo del mundo, es fundamental que detengas el servidor para evitar que los archivos se corrompan.  
+Antes de añadir o modificar cualquier archivo del mundo, es fundamental que detengas el servidor para evitar que los archivos se corrompan.\
 En la página principal de tu panel, haz clic en el botón **Stop**.
 
 ![Botón para detener el servidor](https://billing.xerohost.net/images/kb/92_scrnli_Ie2J19BxD6ZsXr.png)
 
-### Paso 2: Navegar al gestor de archivos
+### Navegar al gestor de archivos
 
 En el menú de la izquierda, navega hasta la sección **Files** para acceder al gestor de archivos de tu servidor.
 
@@ -22,10 +22,10 @@ En el menú de la izquierda, navega hasta la sección **Files** para acceder al 
 
 ### Paso 3: Localizar la carpeta del mundo
 
-Una vez en el gestor de archivos, navega a la carpeta principal de tu mundo, que por lo general se llama `world`.  
+Una vez en el gestor de archivos, navega a la carpeta principal de tu mundo, que por lo general se llama `world`.\
 Dentro de esta carpeta, encontrarás una subcarpeta llamada `datapacks`:
 
-```
+```bash
 /home/container/
     - world/
         - datapacks/
@@ -35,19 +35,19 @@ Dentro de esta carpeta, encontrarás una subcarpeta llamada `datapacks`:
 
 ![Ubicación de la carpeta datapacks](https://billing.xerohost.net/images/kb/93_scrnli_kMZa3V82r72EOh.png)
 
-### Paso 4: Subir el datapack
+### Subir el datapack
 
-Sube el archivo `.zip` del datapack directamente a la carpeta `datapacks`.  
+Sube el archivo `.zip` del datapack directamente a la carpeta `datapacks`.\
 **No descomprimas** el archivo `.zip`. Simplemente arrástralo y suéltalo o utiliza la función de carga del gestor de archivos.
 
 ![Subir archivo del datapack](https://billing.xerohost.net/images/kb/96_scrnli_G9ij10fpl7Av49.png)
 
-### Paso 5: Iniciar el servidor y verificar
+### Iniciar el servidor y verificar
 
-Una vez que el archivo haya sido subido, puedes iniciar el servidor nuevamente.  
+Una vez que el archivo haya sido subido, puedes iniciar el servidor nuevamente.\
 El datapack se activará automáticamente. Puedes verificarlo con el siguiente comando en la consola:
 
-```
+```bash
 datapack list
 ```
 
