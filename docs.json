@@ -10,37 +10,22 @@
   },
   "favicon": "/favicon.png",
   "navigation": {
-    "pages": [
-      "general",
-      "minecraft",
-      "games",
-      "vps",
-      "dedicated"
-    ],
     "groups": [
       {
-        "group": "Getting started",
-        "icon": "play",
-        "expanded": false,
+        "group": "General & Account",
+        "icon": "book",
+        "expanded": true,
         "pages": [
-          "quickstart",
-          {
-            "group": "Editing",
-            "icon": "pencil",
-            "pages": [
-              "installation",
-              "editor"
-            ]
-          }
+          "general"
         ]
       },
       {
-        "group": "Writing content",
-        "icon": "notebook-text",
-        "tag": "NEW",
+        "group": "Minecraft",
+        "icon": "pickaxe",
+        "expanded": true,
         "pages": [
-          "writing-content/page",
-          "writing-content/text"
+          "minecraft/java",
+          "minecraft/bedrock"
         ]
       }
     ],
