@@ -12,12 +12,9 @@
   "navigation": {
     "tabs": [
       {
-        "tab": "API reference",
-        "icon": "square-terminal",
+        "tab": "Inicio",
         "pages": [
-          "api-reference/get",
-          "api-reference/post",
-          "api-reference/delete"
+          "index"
         ]
       },
       {
