@@ -16,9 +16,11 @@
         "pages": [
           "index"
         ]
-      },
+      }
+    ],
+    "dropdowns": [
       {
-        "tab": "FAQ / Knowledge Base",
+        "dropdown": "FAQ / Knowledge Base",
         "icon": "book-open",
         "menu": [
           {
