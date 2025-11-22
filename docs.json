@@ -22,7 +22,7 @@
       },
       {
         "dropdown": "Minecraft",
-        "icon": "square-terminal",
+        "icon": "pickaxe",
         "pages": [
           "minecraft/java/activar-la-whitelist",
           "minecraft/java/ajustar-la-viewdistance-y-simulationdistance",
@@ -32,8 +32,15 @@
         ]
       },
       {
-        "dropdown": "Blog",
-        "href": "https://external-link.com/blog"
+        "dropdown": "VPS",
+        "icon": "terminal",
+        "pages": [
+          "minecraft/java/activar-la-whitelist",
+          "minecraft/java/ajustar-la-viewdistance-y-simulationdistance",
+          "minecraft/java/cambiar-la-dificultad",
+          "minecraft/java/cambiar-la-seed",
+          "minecraft/java/instalar-geyser-floodgate"
+        ]
       }
     ]
   },
