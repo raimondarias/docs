@@ -42,28 +42,23 @@
             "icon": "pickaxe",
             "groups": [
               {
-                "group": "Minecraft",
-                "icon": "book-open",
+                "group": "Minecraft Java",
+                "icon": "pickaxe",
                 "pages": [
-                  {
-                    "group": "Minecraft Java",
-                    "icon": "pickaxe",
-                    "pages": [
-                      "minecraft/java/activar-la-whitelist",
-                      "minecraft/java/ajustar-la-viewdistance-y-simulationdistance",
-                      "minecraft/java/cambiar-la-dificultad",
-                      "minecraft/java/cambiar-la-seed",
-                      "minecraft/java/instalar-geyser-floodgate"
-                    ]
-                  },
-                  {
-                    "group": "Minecraft Bedrock",
-                    "icon": "brick-wall",
-                    "pages": [
-                      "minecraft/bedrock/activar-la-whitelist",
-                      "minecraft/bedrock/cambiar-la-seed"
-                    ]
-                  }
+                  "minecraft/java/activar-la-whitelist",
+                  "minecraft/java/ajustar-la-viewdistance-y-simulationdistance",
+                  "minecraft/java/cambiar-la-dificultad",
+                  "minecraft/java/cambiar-la-seed",
+                  "minecraft/java/instalar-geyser-floodgate"
+                ]
+              },
+              {
+                "group": "Minecraft Bedrock",
+                "icon": "cube",
+                "pages": [
+                  "minecraft/bedrock/activar-la-whitelist",
+                  "minecraft/bedrock/cambiar-la-dificultad",
+                  "minecraft/bedrock/cambiar-la-seed"
                 ]
               }
             ]
