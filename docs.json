@@ -33,7 +33,7 @@
       },
       {
         "dropdown": "Games",
-        "icon": "terminal",
+        "icon": "gamepad-modern",
         "pages": [
           "minecraft/java/activar-la-whitelist",
           "minecraft/java/ajustar-la-viewdistance-y-simulationdistance",
@@ -55,7 +55,7 @@
       },
       {
         "dropdown": "Dedicated",
-        "icon": "terminal",
+        "icon": "server",
         "pages": [
           "minecraft/java/activar-la-whitelist",
           "minecraft/java/ajustar-la-viewdistance-y-simulationdistance",
