@@ -31,12 +31,12 @@
     ],
     "tabs": [
       {
-        "tab": "Developer tools",
+        "tab": "FAQ / Knowledge Base",
         "icon": "square-terminal",
         "menu": [
           {
-            "item": "API reference",
-            "icon": "rocket",
+            "item": "General & Account",
+            "icon": "book",
             "groups": [
               {
                 "group": "Core endpoints",
@@ -50,13 +50,14 @@
             ]
           },
           {
-            "item": "SDKs",
-            "icon": "code",
-            "description": "SDKs are used to interact with the API.",
+            "item": "Minecraft",
+            "icon": "pickaxe",
             "pages": [
-              "sdk/fetch",
-              "sdk/create",
-              "sdk/delete"
+              "minecraft/java/activar-la-whitelist",
+              "minecraft/java/ajustar-la-viewdistance-y-simulationdistance",
+              "minecraft/java/cambiar-la-dificultad",
+              "minecraft/java/cambiar-la-seed",
+              "minecraft/java/instalar-geyser-floodgate"
             ]
           }
         ]
