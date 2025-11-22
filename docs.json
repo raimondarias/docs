@@ -28,9 +28,11 @@
               },
               {
                 "group": "Account & Billing",
-                "icon": "lwallet",
+                "icon": "wallet",
                 "pages": [
-                  "account/get"
+                  "api-reference/get",
+                  "api-reference/post",
+                  "api-reference/delete"
                 ]
               }
             ]
