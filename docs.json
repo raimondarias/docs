@@ -95,14 +95,14 @@
       {
         "label": "Login",
         "icon": "discord",
-        "href": "https://discord.gg/xerohost"
+        "href": "https://billing.xerohost.net/login"
       }
     ],
     "primary": {
       "type": "button",
       "label": "Sign up",
       "icon": "user",
-      "href": "https://billing.xerohost.net/login"
+      "href": "https://billing.xerohost.net/register.php"
     }
   },
   "footer": {
