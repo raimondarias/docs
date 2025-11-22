@@ -29,17 +29,17 @@
                 "group": "General",
                 "icon": "book",
                 "pages": [
-                  "general/conectarse-por-sftp",
-                  "general/crear-un-subdominio",
-                  "general/invitar-a-un-subuser-al-panel-de-control"
+                  "general/connect-via-sftp",
+                  "general/create-a-subdomain",
+                  "general/invite-a-sub-user-to-the-control-panel"
                 ]
               },
               {
                 "group": "Account & Billing",
                 "icon": "address-card",
                 "pages": [
-                  "account/restablecer-la-cuenta-del-billing",
-                  "account/restablecer-la-cuenta-del-panel"
+                  "account/reset-billing-password",
+                  "account/reset-the-panel-password"
                 ]
               }
             ]
@@ -52,20 +52,33 @@
                 "group": "Minecraft Java",
                 "icon": "pickaxe",
                 "pages": [
-                  "minecraft/java/activar-la-whitelist",
-                  "minecraft/java/ajustar-la-viewdistance-y-simulationdistance",
-                  "minecraft/java/cambiar-la-dificultad",
-                  "minecraft/java/cambiar-la-seed",
-                  "minecraft/java/instalar-geyser-floodgate"
+                  "minecraft/java/activate-the-whitelist",
+                  "minecraft/java/change-the-difficulty",
+                  "minecraft/java/change-the-seed",
+                  "minecraft/java/change-the-view-distance-and-simulation-distance",
+                  "minecraft/java/install-geyser-floodgate"
                 ]
               },
               {
                 "group": "Minecraft Bedrock",
                 "icon": "cube",
                 "pages": [
-                  "minecraft/bedrock/activar-la-whitelist",
-                  "minecraft/bedrock/cambiar-la-dificultad",
-                  "minecraft/bedrock/cambiar-la-seed"
+                  "minecraft/bedrock/activate-the-whitelist",
+                  "minecraft/bedrock/change-the-difficulty",
+                  "minecraft/bedrock/change-the-seed"
+                ]
+              }
+            ]
+          },
+          {
+            "item": "VPS",
+            "icon": "terminal",
+            "groups": [
+              {
+                "group": "VPS",
+                "icon": "terminal",
+                "pages": [
+                  "vps/reset-password"
                 ]
               }
             ]
