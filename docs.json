@@ -40,7 +40,6 @@
                 "pages": [
                   {
                     "group": "Minecraft Java",
-                    "icon": "pencil",
                     "pages": [
                       "minecraft/java/ajustar-la-viewdistance-y-simulationdistance",
                       "minecraft/java/cambiar-la-dificultad",
@@ -50,7 +49,6 @@
                   },
                   {
                     "group": "Minecraft Bedrock",
-                    "icon": "pencil",
                     "pages": [
                       "minecraft/java/activar-la-whitelist"
                     ]
