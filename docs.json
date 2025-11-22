@@ -18,6 +18,10 @@
         ]
       },
       {
+        "tab": "TEst",
+        "href": "https://panel.xerohost.net"
+      },
+      {
         "tab": "FAQ / Knowledge Base",
         "icon": "book-open",
         "menu": [
