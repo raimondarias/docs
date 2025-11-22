@@ -12,7 +12,7 @@
   "navigation": {
     "dropdowns": [
       {
-        "dropdown": "Documentation",
+        "dropdown": "General & Account",
         "icon": "book-open",
         "pages": [
           "quickstart",
@@ -21,12 +21,14 @@
         ]
       },
       {
-        "dropdown": "API reference",
+        "dropdown": "Minecraft",
         "icon": "square-terminal",
         "pages": [
-          "api-reference/get",
-          "api-reference/post",
-          "api-reference/delete"
+          "minecraft/java/activar-la-whitelist",
+          "minecraft/java/ajustar-la-viewdistance-y-simulationdistance",
+          "minecraft/java/cambiar-la-dificultad",
+          "minecraft/java/cambiar-la-seed",
+          "minecraft/java/instalar-geyser-floodgate"
         ]
       },
       {
