@@ -65,9 +65,12 @@
                 "group": "Minecraft Bedrock",
                 "icon": "cube",
                 "pages": [
+                  "minecraft/bedrock/activate-the-coordinates",
                   "minecraft/bedrock/activate-the-whitelist",
                   "minecraft/bedrock/change-the-difficulty",
-                  "minecraft/bedrock/change-the-seed"
+                  "minecraft/bedrock/change-the-seed",
+                  "minecraft/bedrock/change-the-version",
+                  "minecraft/bedrock/join-from-a-console"
                 ]
               }
             ]
