@@ -53,9 +53,11 @@
                 "icon": "pickaxe",
                 "pages": [
                   "minecraft/java/activate-the-whitelist",
+                  "minecraft/java/allow-non-premium-players",
                   "minecraft/java/change-the-difficulty",
                   "minecraft/java/change-the-seed",
                   "minecraft/java/change-the-view-distance-and-simulation-distance",
+                  "minecraft/java/install-and-configure-voice-chat",
                   "minecraft/java/install-geyser-floodgate"
                 ]
               },
