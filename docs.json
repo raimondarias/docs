@@ -10,25 +10,6 @@
   },
   "favicon": "/favicon.png",
   "navigation": {
-    "groups": [
-      {
-        "group": "General & Account",
-        "icon": "book",
-        "expanded": true,
-        "pages": [
-          "general"
-        ]
-      },
-      {
-        "group": "Minecraft",
-        "icon": "pickaxe",
-        "expanded": true,
-        "pages": [
-          "minecraft/java",
-          "minecraft/bedrock"
-        ]
-      }
-    ],
     "tabs": [
       {
         "tab": "FAQ / Knowledge Base",
@@ -50,14 +31,33 @@
             ]
           },
           {
-            "item": "Minecraft",
-            "icon": "pickaxe",
-            "pages": [
-              "minecraft/java/activar-la-whitelist",
-              "minecraft/java/ajustar-la-viewdistance-y-simulationdistance",
-              "minecraft/java/cambiar-la-dificultad",
-              "minecraft/java/cambiar-la-seed",
-              "minecraft/java/instalar-geyser-floodgate"
+            "item": "General & Account",
+            "icon": "book",
+            "groups": [
+              {
+                "group": "Minecraft",
+                "icon": "square-terminal",
+                "expanded": true,
+                "pages": [
+                  "minecraft",
+                  {
+                    "group": "Minecraft Java",
+                    "icon": "pencil",
+                    "pages": [
+                      "minecraft/java/instalar-geyser-floodgate",
+                      "editor"
+                    ]
+                  },
+                  {
+                    "group": "Minecraft Bedrock",
+                    "icon": "pencil",
+                    "pages": [
+                      "minecraft/java/instalar-geyser-floodgate",
+                      "editor"
+                    ]
+                  }
+                ]
+              }
             ]
           }
         ]
