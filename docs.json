@@ -12,6 +12,15 @@
   "navigation": {
     "tabs": [
       {
+        "tab": "API reference",
+        "icon": "square-terminal",
+        "pages": [
+          "api-reference/get",
+          "api-reference/post",
+          "api-reference/delete"
+        ]
+      },
+      {
         "tab": "FAQ / Knowledge Base",
         "icon": "square-terminal",
         "menu": [
