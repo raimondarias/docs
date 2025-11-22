@@ -19,7 +19,7 @@
       },
       {
         "tab": "FAQ / Knowledge Base",
-        "icon": "square-terminal",
+        "icon": "book-open",
         "menu": [
           {
             "item": "General & Account",
@@ -27,14 +27,14 @@
             "groups": [
               {
                 "group": "General",
-                "icon": "layout-dashboard",
+                "icon": "book",
                 "pages": [
                   "general/inicio"
                 ]
               },
               {
                 "group": "Account & Billing",
-                "icon": "wallet",
+                "icon": "address-card",
                 "pages": [
                   "api-reference/get",
                   "api-reference/post",
