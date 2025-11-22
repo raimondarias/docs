@@ -31,29 +31,28 @@
             ]
           },
           {
-            "item": "General & Account",
-            "icon": "book",
+            "item": "Minecraft",
+            "icon": "pickaxe",
             "groups": [
               {
                 "group": "Minecraft",
                 "icon": "square-terminal",
-                "expanded": true,
                 "pages": [
-                  "minecraft",
                   {
                     "group": "Minecraft Java",
                     "icon": "pencil",
                     "pages": [
-                      "minecraft/java/instalar-geyser-floodgate",
-                      "editor"
+                      "minecraft/java/ajustar-la-viewdistance-y-simulationdistance",
+                      "minecraft/java/cambiar-la-dificultad",
+                      "minecraft/java/cambiar-la-seed",
+                      "minecraft/java/instalar-geyser-floodgate"
                     ]
                   },
                   {
                     "group": "Minecraft Bedrock",
                     "icon": "pencil",
                     "pages": [
-                      "minecraft/java/instalar-geyser-floodgate",
-                      "editor"
+                      "minecraft/java/activar-la-whitelist"
                     ]
                   }
                 ]
