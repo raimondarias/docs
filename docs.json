@@ -16,9 +16,7 @@
         "pages": [
           "index"
         ]
-      }
-    ],
-    "tabs": [
+      },
       {
         "tab": "FAQ / Knowledge Base",
         "icon": "book-open",
