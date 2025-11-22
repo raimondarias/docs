@@ -1,0 +1,43 @@
+---
+title: "Cómo restablecer el Mundo de tu Servidor"
+description: "¿Sientes que el mundo de tu servidor de Minecraft está 'agotado' y quieres un nuevo comienzo? Esta guía te mostrará cómo restablecer tu mundo de manera segura."
+sidebarTitle: "Restablecer el Mundo"
+---
+
+¿Sientes que el mundo de tu servidor de Minecraft está "agotado" y quieres un nuevo comienzo? Ya sea para explorar nuevos biomas, encontrar recursos frescos o simplemente empezar de cero con tus amigos, esta guía te mostrará cómo restablecer tu mundo de manera segura para que no pierdas nada importante.
+
+<Warning>
+  ### Haz una Copia de Seguridad (Opcional)
+
+  Antes de eliminar cualquier archivo, es **CRUCIAL** que hagas una copia de seguridad de tu mundo actual. Si no lo haces, perderás todo el progreso, construcciones y datos de los jugadores de forma irreversible.
+
+  3. En el menú de la izquierda, busca la sección de **"Backups"** o **"Copias de Seguridad"**.
+  4. Crea una nueva copia de seguridad y asegúrate de que se complete con éxito.
+</Warning>
+
+### Detén tu Servidor
+
+Para evitar la corrupción de archivos, el servidor debe estar completamente apagado antes de que realices cualquier cambio. No lo dejes en modo "reiniciar", ya que esto puede causar problemas.
+
+1. En el menú de la izquierda, dirígete a la sección **"Console"**, haz clic en el botón **"Stop"** para detener el servidor.
+2. Espera a que la consola confirme que el servidor está completamente detenido.
+
+### Elimina los Archivos del Mundo
+
+Ahora es el momento de eliminar los archivos que contienen la información de tu mundo actual. El nombre predeterminado de la carpeta del mundo es `world`, pero si lo cambiaste, busca el nombre que configuraste en el archivo `server.properties`.
+
+1. Dirígete a la sección de **"Archivos"** o **"Files"**.
+2. Localiza la carpeta principal de tu mundo (ej. `/home/container/world`).
+3. Luego eliminas las siguientes carpetas (elimínalas todas para un reinicio completo):
+   - `world` (mundo principal)
+   - `world_nether` (dimensión del Nether)
+   - `world_the_end` (dimensión del End)
+4. **Selecciona todas las carpetas y archivos del mundo** y utiliza la opción **"Eliminar"** o **"Delete"**.
+
+### Inicia tu Servidor
+
+Una vez que hayas eliminado los archivos, tu servidor ya no tendrá un mundo cargado. Al iniciarlo, generará automáticamente uno nuevo.
+
+1. Regresa a la consola principal de tu servidor.
+2. Haz clic en el botón **"Start"** para iniciar el servidor.
+3. La consola mostrará los mensajes de progreso mientras se genera el nuevo mundo.
