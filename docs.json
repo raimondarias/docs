@@ -94,14 +94,14 @@
     "links": [
       {
         "label": "Login",
-        "icon": "discord",
+        "icon": "arrow-right-to-bracket",
         "href": "https://billing.xerohost.net/login"
       }
     ],
     "primary": {
       "type": "button",
       "label": "Sign up",
-      "icon": "user",
+      "icon": "arrow-right-to-bracket",
       "href": "https://billing.xerohost.net/register.php"
     }
   },
