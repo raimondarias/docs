@@ -37,9 +37,8 @@
                 "group": "Account & Billing",
                 "icon": "address-card",
                 "pages": [
-                  "api-reference/get",
-                  "api-reference/post",
-                  "api-reference/delete"
+                  "account/restablecer-la-cuenta-del-billing",
+                  "account/restablecer-la-cuenta-del-panel"
                 ]
               }
             ]
