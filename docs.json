@@ -30,6 +30,7 @@
                 "icon": "book",
                 "pages": [
                   "general/conectarse-por-sftp",
+                  "general/crear-un-subdominio",
                   "general/invitar-a-un-subuser-al-panel-de-control"
                 ]
               },
