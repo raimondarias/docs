@@ -203,7 +203,7 @@
   },
   "errors": {
     "404": {
-      "redirect": true,
+      "redirect": false,
       "title": "No me pueden encontrar",
       "description": "¿Qué habrá sido de esta página"
     }

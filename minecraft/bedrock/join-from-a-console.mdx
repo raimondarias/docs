@@ -1,0 +1,45 @@
+---
+title: "Cómo unirse al servidor Bedrock en consola (Xbox, Switch, PlayStation)"
+description: "Guía para conectar tu consola Xbox, Switch o PlayStation a un servidor Bedrock usando DNS personalizado."
+sidebarTitle: "Unirse desde una Consola"
+---
+
+Unirte a tu servidor de Minecraft Bedrock desde una consola requiere un método especial, ya que las consolas no permiten la conexión directa por IP.\
+La solución es configurar un DNS personalizado que te redirigirá a la lista de servidores.
+
+### Acceder a la configuración de red de tu consola
+
+El primer paso es cambiar la configuración de red en tu consola.
+
+- En el menú principal de tu consola, navega hasta **"Configuración"**.
+- Selecciona **"Red"** o **"Configuración de Internet"**.
+
+### Cambiar la configuración DNS primaria
+
+Dentro de las opciones de red, cambia la configuración de DNS de **"Automático"** a **"Manual"** y utiliza la siguiente dirección de DNS primaria.
+
+```yaml
+DNS Primario: 104.238.130.180
+```
+
+En caso de que el DNS primario no funcione, puedes usar los DNS secundarios como alternativa:
+
+```yaml
+DNS Secundario: 8.8.8.8 o 1.1.1.1
+```
+
+### Unirse a un servidor de la lista
+
+Una vez que hayas guardado la configuración DNS, inicia Minecraft y navega a la sección de servidores.
+
+### Ingresar la dirección del servidor
+
+Al unirte al servidor de redirección, aparecerá una pantalla pidiéndote la IP y el puerto de tu servidor.\
+Ingresa la dirección IP de tu servidor de XeroHost y el puerto correspondiente para conectarte.
+
+```yaml
+Dirección del Servidor: 213.21.245.232
+Puerto: 19132
+```
+
+Una vez que hayas ingresado la información, haz clic en el botón para unirte y serás redirigido a tu servidor.
