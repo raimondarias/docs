@@ -10,13 +10,6 @@
   },
   "favicon": "/favicon.png",
   "navigation": {
-    "pages": [
-      "settings",
-      "pages",
-      "navigation",
-      "themes",
-      "custom-domain"
-    ],
     "dropdowns": [
       {
         "dropdown": "Documentation",
@@ -39,13 +32,6 @@
       {
         "dropdown": "Blog",
         "href": "https://external-link.com/blog"
-      }
-    ],
-    "tabs": [
-      {
-        "tab": "Control Panel",
-        "icon": "square-terminal",
-        "href": "https://panel.xerohost.net"
       }
     ]
   },
@@ -72,7 +58,7 @@
     "primary": {
       "type": "button",
       "icon": "circle-user",
-      "label": "Login",
+      "label": "Login & Register",
       "href": "https://billing.xerohost.net/login"
     }
   },
@@ -89,30 +75,37 @@
         "items": [
           {
             "label": "Games Servers (US)",
+            "icon": "box",
             "href": "https://billing.xerohost.net/store/games-servers-us"
           },
           {
             "label": "Games Servers (BR)",
+            "icon": "box",
             "href": "https://billing.xerohost.net/store/games-servers-br"
           },
           {
             "label": "Bot Servers",
+            "icon": "box",
             "href": "https://billing.xerohost.net/store/bot-servers"
           },
           {
             "label": "FiveM Servers",
+            "icon": "box",
             "href": "https://billing.xerohost.net/store/fivem-servers"
           },
           {
             "label": "VPS Servers (US)",
+            "icon": "box",
             "href": "https://billing.xerohost.net/store/vps-servers-us"
           },
           {
             "label": "VPS Servers (BR)",
+            "icon": "box",
             "href": "https://billing.xerohost.net/store/vps-servers-br"
           },
           {
             "label": "Dedicated Servers",
+            "icon": "box",
             "href": "https://billing.xerohost.net/store/dedicated-servers"
           }
         ]
