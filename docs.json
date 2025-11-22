@@ -20,12 +20,17 @@
             "icon": "book",
             "groups": [
               {
-                "group": "Core endpoints",
-                "icon": "book-open",
+                "group": "General",
+                "icon": "layout-dashboard",
                 "pages": [
-                  "api-reference/get",
-                  "api-reference/post",
-                  "api-reference/delete"
+                  "general/inicio"
+                ]
+              },
+              {
+                "group": "Account & Billing",
+                "icon": "lwallet",
+                "pages": [
+                  "account/get"
                 ]
               }
             ]
