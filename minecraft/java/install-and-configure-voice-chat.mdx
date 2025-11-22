@@ -1,0 +1,68 @@
+---
+title: "Cómo instalar y configurar VoiceChat"
+description: "Tutorial paso a paso para instalar y configurar VoiceChat en tu servidor de Minecraft alojado en XeroHost."
+sidebarTitle: "Instalar VoiceChat"
+---
+
+Este tutorial te guiará paso a paso para instalar y configurar VoiceChat en tu servidor de Minecraft alojado en XeroHost.
+
+### Accede al panel de control
+
+1. Entra al panel de control de XeroHost: [https://panel.xerohost.net](https://panel.xerohost.net)
+2. Selecciona tu servidor de Minecraft.
+
+### Crear un puerto adicional
+
+Para que VoiceChat funcione correctamente, necesitas un **puerto adicional**.
+
+1. En el menú izquierdo, ve a **"Network"**.
+2. Haz clic en **"Create Allocation"**.
+3. Se generará un nuevo puerto automáticamente.
+4. En la columna Notes, puedes escribir “VoiceChat” para identificarlo (opcional).
+
+### Instalar el Mod/Plugin de VoiceChat
+
+VoiceChat está disponible como un **mod** para Minecraft Forge/Fabric y como un **plugin** para Paper/Spigot o Proxy. Asegúrate de descargar la versión correcta para tu servidor.
+
+1. Dirígete a la sección **"Files"**.
+2. Abre la carpeta **"mods"** (si usas Forge/Fabric) o la carpeta **"plugins"** (si usas Paper/Spigot o Proxy).
+3. Descarga el archivo desde el sitio oficial:
+    - **Mod (Forge/NeoForge/Fabric/Quilt):** [https://modrinth.com/plugin/simple-voice-chat/versions?l=forge&l=fabric&l=neoforge&l=quilt](https://modrinth.com/plugin/simple-voice-chat/versions?l=forge&l=fabric&l=neoforge&l=quilt)
+    - **Plugin (Paper/Spigot):** [https://modrinth.com/plugin/simple-voice-chat/versions?l=bukkit](https://modrinth.com/plugin/simple-voice-chat/versions?l=bukkit)
+    - **Proxy (Velocity/BungeeCord):** [https://modrinth.com/plugin/simple-voice-chat/versions?l=velocity&l=bungeecord](https://modrinth.com/plugin/simple-voice-chat/versions?l=velocity&l=bungeecord)
+4. Sube el archivo `.jar` del mod o plugin a la carpeta correspondiente.
+
+**Importante:** Asegúrate de que la versión del mod/plugin o proxy sea compatible con la versión de tu servidor de Minecraft.
+
+### Configurar VoiceChat
+
+1. En **"Files"**, abre la carpeta `plugins > voicechat`.
+2. Busca el archivo `voicechat-server.properties` y edítalo.
+3. Modifica la línea  
+   ```
+   port=25565
+   ```  
+   y reemplázala con el **puerto adicional** que generaste en el Paso 2.
+
+   ![Configuración VoiceChat](https://billing.xerohost.net/images/kb/6_scrnli_mH1TqhHlutrxB1.png)
+4. Guarda los cambios y **reinicia el servidor**.
+
+### Conectar y probar VoiceChat
+
+1. Los jugadores deben instalar el **mod VoiceChat** en su cliente de Minecraft.  
+   Pueden descargarlo desde [Modrinth](https://modrinth.com/plugin/simple-voice-chat/versions?l=fabric&l=neoforge&l=forge&l=quilt) o [CurseForge](https://www.curseforge.com/minecraft/mc-mods/simple-voice-chat) según corresponda.
+2. Una vez en el servidor, presiona la tecla **V** para abrir el menú del mod.
+3. Configura tu micrófono y ajusta el volumen.
+4. ¡Ahora puedes hablar con otros jugadores en el juego en tiempo real!
+
+### Solución de problemas
+
+#### ❌ No se escucha el chat de voz
+
+- Asegúrate de que el mod/plugin esté instalado en el servidor y el mod en los clientes.
+- Verifica que el **puerto adicional** esté correctamente asignado en la configuración de VoiceChat y en XeroHost.
+
+#### ❌ Error de conexión
+
+- Revisa que el **puerto adicional** esté abierto en la configuración de red de XeroHost.
+- Reinicia el servidor después de realizar cualquier cambio en la configuración.
