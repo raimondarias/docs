@@ -18,24 +18,24 @@
         ]
       }
     ],
-    "dropdowns": [
+    "tabs": [
       {
-        "dropdown": "FAQ / Knowledge Base",
+        "tab": "FAQ / Knowledge Base",
         "icon": "book-open",
         "menu": [
           {
             "item": "General & Account",
             "icon": "book",
-            "dropdowns": [
+            "groups": [
               {
-                "dropdown": "General",
+                "group": "General",
                 "icon": "book",
                 "pages": [
                   "general/inicio"
                 ]
               },
               {
-                "dropdown": "Account & Billing",
+                "group": "Account & Billing",
                 "icon": "address-card",
                 "pages": [
                   "api-reference/get",
@@ -48,9 +48,9 @@
           {
             "item": "Minecraft",
             "icon": "pickaxe",
-            "dropdowns": [
+            "groups": [
               {
-                "dropdown": "Minecraft Java",
+                "group": "Minecraft Java",
                 "icon": "pickaxe",
                 "pages": [
                   "minecraft/java/activar-la-whitelist",
@@ -61,7 +61,7 @@
                 ]
               },
               {
-                "dropdown": "Minecraft Bedrock",
+                "group": "Minecraft Bedrock",
                 "icon": "cube",
                 "pages": [
                   "minecraft/bedrock/activar-la-whitelist",
