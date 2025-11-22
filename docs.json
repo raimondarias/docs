@@ -96,7 +96,7 @@
     "primary": {
       "type": "button",
       "icon": "circle-user",
-      "label": "Login & Register",
+      "label": "Login & Sign up",
       "href": "https://billing.xerohost.net/login"
     }
   },
