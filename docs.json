@@ -26,13 +26,6 @@
             "icon": "book",
             "groups": [
               {
-                "group": "General",
-                "icon": "book",
-                "pages": [
-                  "general/inicio"
-                ]
-              },
-              {
                 "group": "Account & Billing",
                 "icon": "address-card",
                 "pages": [
