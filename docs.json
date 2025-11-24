@@ -63,6 +63,7 @@
                   "minecraft/java/disable-spawn-protection",
                   "minecraft/java/install-and-configure-voice-chat",
                   "minecraft/java/install-geyser-floodgate",
+                  "minecraft/java/one-click-mod-installation",
                   "minecraft/java/one-click-plugin-installation",
                   "minecraft/java/restore-the-world"
                 ]
