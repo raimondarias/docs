@@ -1,34 +1,27 @@
 ---
 title: "Cómo activar las Coordenadas del Servidor"
-description: "Activa las coordenadas en tu servidor de Minecraft Bedrock para que los jugadores vean su ubicación. La configuración se realiza con un comando en la consola."
+description: "Activar las coordenadas en tu servidor de Minecraft Bedrock es una función útil que permite a los jugadores ver su ubicación exacta en el mundo. Esta configuración se cambia fácilmente usando un comando en la consola del servidor."
 sidebarTitle: "Activar las Coordenadas"
 ---
 
-Activar las coordenadas en tu servidor de Minecraft Bedrock es una función útil que permite a los jugadores ver su ubicación exacta en el mundo. Esta configuración se cambia fácilmente usando un comando en la consola del servidor.
-
 ### Acceder a la consola del servidor
 
-Para empezar, necesitas acceder a la consola de tu servidor.\
-En el panel de control de XeroHost, navega hasta la sección **Consola** en el menú de la izquierda.
+1. Entra al panel de control de XeroHost: https://panel.xerohost.net
+2. Selecciona el servidor de Minecraft que deseas configurar.
+3. En el menú de la izquierda, dirígete a la sección **"Console"**.
 
-![Menú de consola en el panel de control de XeroHost](https://billing.xerohost.net/images/kb/79_scrnli_6aXH36bBJR5Kl0.png)
+   ![Console Pn](/images/console.png)
 
 ### Ejecutar el comando gamerule
 
 En la línea de comandos de la consola, escribe el siguiente comando para activar las coordenadas para todos los jugadores.\
 Las coordenadas se mostrarán en la esquina superior izquierda de la pantalla de cada jugador.
 
-```
+```bash
 gamerule showcoordinates true
 ```
-
-![Comando para activar las coordenadas en la consola](https://billing.xerohost.net/images/kb/80_scrnli_7an7Jk7pnR7JSh.png)
 
 ### Verificación
 
 El cambio surte efecto de inmediato. No es necesario reiniciar el servidor.\
 Simplemente pídele a un jugador que se conecte para confirmar que las coordenadas son visibles en su pantalla.
-
-#### Ejemplo de coordenadas en el juego
-
-Posición: X: -123 Y: 64 Z: 456
