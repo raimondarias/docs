@@ -1,0 +1,93 @@
+---
+title: "Cómo conectar tu Dominio a tu Servidor de Minecraft"
+description: "Guía para configurar los registros DNS (A y SRV) en Cloudflare o Namecheap para que tus jugadores se conecten usando un dominio fácil de recordar (ej. jugar.tudominio.com)."
+sidebarTitle: "Conectar tu Dominio"
+---
+
+¿Quieres que tus jugadores se conecten a tu servidor de Minecraft usando un dominio fácil de recordar, como `jugar.tudominio.com`? Este tutorial te guiará para configurar los registros DNS necesarios en **Cloudflare** o **Namecheap**.
+
+## Conexión con Cloudflare
+
+### Requisitos
+
+- **Dominio en Cloudflare:** Tu dominio debe estar añadido a Cloudflare y sus DNS deben ser gestionados por Cloudflare.
+- **IP y Puerto** de tu servidor de Minecraft.
+- **Acceso** al panel DNS de Cloudflare.
+
+### Accede al Panel DNS en Cloudflare
+
+1. **Inicia sesión** en tu cuenta de Cloudflare.
+2. **Selecciona tu dominio** desde el tablero principal.
+3. Dirígete a la sección **DNS** en la barra lateral izquierda.
+
+### Añade un Registro A
+
+Este registro apuntará tu subdominio (o dominio principal) a la **IP** de tu servidor.
+
+1. Haz clic en **Add Record**.
+2. Configura el registro con los siguientes valores:
+   - **Tipo:** `A`
+   - **Nombre:** El **subdominio** que quieras usar (ej. `jugar`). Si quieres usar el dominio raíz, escribe `@`.
+   - **Dirección IPv4:** La **IP** de tu servidor.
+   - **Estado del Proxy:** Haz clic en el ícono de la nube hasta que esté **gris (Solo DNS)**. Esto es crucial, ya que Cloudflare no admite el tráfico de Minecraft a través de su proxy.
+3. Haz clic en **Save**.
+
+### Añade un Registro SRV
+
+Este registro le dirá a Minecraft el puerto específico de tu servidor, permitiendo una conexión más sencilla.
+
+1. Haz clic nuevamente en **Add Record**.
+2. Configura el registro con los siguientes valores:
+   - **Tipo:** `SRV`
+   - **Nombre:** `_minecraft._tcp.tunombre` (reemplaza `tunombre` con el subdominio del Paso 2, ej. `_minecraft._tcp.jugar`). Si usaste `@` para el dominio raíz, simplemente pon `@`.
+   - **Prioridad:** `1`
+   - **Peso:** `1`
+   - **Puerto:** El **número del puerto** de tu servidor de Minecraft (ej. `25565`).
+   - **Destino:** La **IP o subdominio de tu servidor** (ej. `mia1.apple.xerosrv.com` o la IP).
+   - **TTL:** Deja en `Auto`.
+3. Haz clic en **Save**.
+
+### Notas Importantes y Solución de Problemas
+
+- **Desactiva el Proxy de Cloudflare:** Asegúrate de que la nube en tus registros `A` y `SRV` esté **gris (Solo DNS)**. Si está naranja, la conexión fallará.
+- **Propagación DNS:** Puede tardar entre unos minutos y **24 horas** en completarse.
+- **"Servidor no encontrado":** Verifica que los registros `A` y `SRV` estén configurados correctamente y que la nube esté en **gris**.
+- **Puerto incorrecto:** Confirma que el **puerto** en el registro `SRV` sea exactamente el mismo que el de tu servidor.
+
+---
+
+## Conexión con Namecheap
+
+### Requisitos
+
+- **Dominio registrado en Namecheap:** Asegúrate de tener acceso a la configuración DNS de tu dominio.
+- **IP y Puerto** de tu servidor de Minecraft.
+- **Acceso** al panel de gestión DNS en Namecheap.
+
+### Accede al Panel DNS en Namecheap
+
+1. **Inicia sesión** en tu cuenta de Namecheap.
+2. Ve a la sección **"Domain List"** y selecciona el dominio que deseas configurar.
+3. Haz clic en **"Manage"** y luego en la pestaña **"Advanced DNS"**.
+
+### Añade un Registro SRV
+
+Namecheap simplifica la conexión de Minecraft, ya que solo necesitas el registro SRV para un puerto específico.
+
+1. Haz clic en **"Add New Record"**.
+2. Selecciona el **Tipo** `SRV`.
+3. Configura los campos con los siguientes valores:
+   - **Servicio:** `_minecraft._tcp`
+   - **Nombre del host:** El **subdominio** que quieras usar (ej. `jugar`). Si quieres usar el dominio raíz, escribe `@`.
+   - **Prioridad:** `1`
+   - **Peso:** `1`
+   - **Puerto:** El **número del puerto** de tu servidor (ej. `25565`).
+   - **Destino:** La **IP o subdominio de tu servidor** (ej. `mia1.apple.xerosrv.com` o la IP).
+   - **TTL:** Deja en `Automatic`.
+4. Haz clic en el ícono de la **marca de verificación verde** para guardar los cambios.
+
+### Notas Importantes y Solución de Problemas
+
+- **Propagación DNS:** Puede tardar entre unos minutos y **24 horas** en completarse.
+- **Error "Servidor no encontrado":** Revisa todos los valores del registro `SRV` para asegurarte de que estén correctos.
+- **Puerto incorrecto:** Confirma que el **puerto** configurado en el registro `SRV` sea exactamente el mismo que el de tu servidor.
