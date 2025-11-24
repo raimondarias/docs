@@ -59,6 +59,7 @@
                   "minecraft/java/change-the-seed",
                   "minecraft/java/change-the-version",
                   "minecraft/java/change-the-view-distance-and-simulation-distance",
+                  "minecraft/java/connect-your-domain",
                   "minecraft/java/customize-the-server",
                   "minecraft/java/disable-spawn-protection",
                   "minecraft/java/install-and-configure-voice-chat",
