@@ -4,25 +4,21 @@ description: "Guía para habilitar el modo No Premium en tu servidor de Minecraf
 sidebarTitle: "Permitir jugadores No Premium"
 ---
 
-El modo **No Premium** permite que los jugadores que no tienen una cuenta premium de Minecraft Java Edition puedan conectarse a tu servidor.\
-Sigue los pasos a continuación para habilitar esta configuración en tu servidor.
-
 <iframe src="https://www.youtube.com/embed/LxOElLFVukM" title="YouTube video player" frameborder="0" className="w-full aspect-video rounded-xl" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen />
 
-### Accede al archivo de configuración del servidor
+### Accede al Archivo de Propiedades
 
 1. Inicia sesión en el **panel de control**: https://panel.xerohost.net
 2. Selecciona el servidor que deseas configurar.
 3. En el menú de la izquierda, dirígete a la sección **"Properties"**.
 
-   ![Properties](https://billing.xerohost.net/images/kb/13_scrnli_M99p2G7Osb3C2n.png)
+   ![Properties Pn](/images/properties.png)
 
-### Cambia las configuraciones necesarias
+### Modifica las Siguientes Propiedades
 
 Dentro de la sección **"Properties"**, realiza los siguientes cambios:
 
-1. Busca la casilla que dice:
-2. Busca la casilla:
+- Busca las casillas:
 
 ![Config online-mode](https://billing.xerohost.net/images/kb/14_scrnli_GO3zSURCcBB4ML.png)
 
@@ -32,29 +28,21 @@ Dentro de la sección **"Properties"**, realiza los siguientes cambios:
 
 ![Properties](https://billing.xerohost.net/images/kb/18_scrnli_6l63AdY4QbHowP.png)
 
-### Guarda y reinicia el servidor
+### Guarda y Reinicia el Servidor
 
 1. Guarda los cambios realizados.
 2. Reinicia tu servidor para aplicar la nueva configuración.
 
-### Notas importantes sobre el modo No Premium
+<Note>
+  ### Notas importantes sobre el modo No Premium
 
-**Seguridad**:
+  **Seguridad**:
 
-- Cuando el servidor está en modo No Premium, no se verifica la autenticidad de las cuentas que se conectan.
-- Instala un plugin de autenticación como **nLogin** o **AuthMe ReLoaded** para proteger las cuentas de los jugadores.
+  - Cuando el servidor está en modo No Premium, no se verifica la autenticidad de las cuentas que se conectan.
+  - Instala un plugin de autenticación como [**nLogin**](https://repo.nickuc.com/download?name=nLogin&lang=es) o [**AuthMe ReLoaded**](https://modrinth.com/plugin/authmerereloaded) para proteger las cuentas de los jugadores.
 
-**Plugins recomendados**:
+  **Problemas comunes**:
 
-- [nLogin (Recomendado)](https://repo.nickuc.com/download?name=nLogin&lang=es): Solicita a los jugadores registrarse y autenticarse al unirse al servidor.
-- [AuthMe ReLoaded](https://cdn.modrinth.com/data/3IEZ9vol/versions/oezVemzR/AuthMe-5.7.0-FORK-Universal.jar): Solicita a los jugadores registrarse y autenticarse al unirse al servidor.
-
-**Problemas comunes**:
-
-- Si los jugadores no pueden unirse, asegúrate que ambas opciones (**"online-mode"** y **"enforce-secure-profile"**) estén configuradas en **false**.
-- Verifica que el servidor haya sido reiniciado después de realizar los cambios.
-
-### Ventajas del modo No Premium
-
-1. Permite que más jugadores, incluyendo aquellos sin cuentas premium, puedan unirse a tu servidor.
-2. Ampliarás tu comunidad al no limitar la entrada solo a jugadores con cuentas premium.
+  - Si los jugadores no pueden unirse, asegúrate que ambas opciones (**"online-mode"** y **"enforce-secure-profile"**) estén configuradas en **false**.
+  - Verifica que el servidor haya sido reiniciado después de realizar los cambios.
+</Note>
