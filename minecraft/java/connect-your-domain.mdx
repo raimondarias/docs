@@ -12,7 +12,7 @@ sidebarTitle: "Conectar tu Dominio"
 - **IP y Puerto** de tu servidor de Minecraft.
 - **Acceso** al panel DNS de Cloudflare.
 
-### Accede al Panel DNS en Cloudflare
+### Accede al Panel DNS
 
 1. **Inicia sesión** en tu cuenta de Cloudflare.
 2. **Selecciona tu dominio** desde el tablero principal.
@@ -45,12 +45,14 @@ Este registro le dirá a Minecraft el puerto específico de tu servidor, permiti
    - **TTL:** Deja en `Auto`.
 3. Haz clic en **Save**.
 
-### Notas Importantes y Solución de Problemas
+<Note>
+  ### Notas y Soluciones
 
-- **Desactiva el Proxy de Cloudflare:** Asegúrate de que la nube en tus registros `A` y `SRV` esté **gris (Solo DNS)**. Si está naranja, la conexión fallará.
-- **Propagación DNS:** Puede tardar entre unos minutos y **24 horas** en completarse.
-- **"Servidor no encontrado":** Verifica que los registros `A` y `SRV` estén configurados correctamente y que la nube esté en **gris**.
-- **Puerto incorrecto:** Confirma que el **puerto** en el registro `SRV` sea exactamente el mismo que el de tu servidor.
+  - **Desactiva el Proxy de Cloudflare:** Asegúrate de que la nube en tus registros `A` y `SRV` esté **gris (Solo DNS)**. Si está naranja, la conexión fallará.
+  - **Propagación DNS:** Puede tardar entre unos minutos y **24 horas** en completarse.
+  - **"Servidor no encontrado":** Verifica que los registros `A` y `SRV` estén configurados correctamente y que la nube esté en **gris**.
+  - **Puerto incorrecto:** Confirma que el **puerto** en el registro `SRV` sea exactamente el mismo que el de tu servidor.
+</Note>
 
 ---
 
@@ -62,7 +64,7 @@ Este registro le dirá a Minecraft el puerto específico de tu servidor, permiti
 - **IP y Puerto** de tu servidor de Minecraft.
 - **Acceso** al panel de gestión DNS en Namecheap.
 
-### Accede al Panel DNS en Namecheap
+### Accede al Panel DNS
 
 1. **Inicia sesión** en tu cuenta de Namecheap.
 2. Ve a la sección **"Domain List"** y selecciona el dominio que deseas configurar.
@@ -84,8 +86,11 @@ Namecheap simplifica la conexión de Minecraft, ya que solo necesitas el registr
    - **TTL:** Deja en `Automatic`.
 4. Haz clic en el ícono de la **marca de verificación verde** para guardar los cambios.
 
-### Notas Importantes y Solución de Problemas
+<Note>
+  ### Notas y Soluciones
 
-- **Propagación DNS:** Puede tardar entre unos minutos y **24 horas** en completarse.
-- **Error "Servidor no encontrado":** Revisa todos los valores del registro `SRV` para asegurarte de que estén correctos.
-- **Puerto incorrecto:** Confirma que el **puerto** configurado en el registro `SRV` sea exactamente el mismo que el de tu servidor.
+  - **Desactiva el Proxy de Cloudflare:** Asegúrate de que la nube en tus registros `A` y `SRV` esté **gris (Solo DNS)**. Si está naranja, la conexión fallará.
+  - **Propagación DNS:** Puede tardar entre unos minutos y **24 horas** en completarse.
+  - **"Servidor no encontrado":** Verifica que los registros `A` y `SRV` estén configurados correctamente y que la nube esté en **gris**.
+  - **Puerto incorrecto:** Confirma que el **puerto** en el registro `SRV` sea exactamente el mismo que el de tu servidor.
+</Note>
