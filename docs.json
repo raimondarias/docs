@@ -38,6 +38,7 @@
                 "group": "Account & Billing",
                 "icon": "address-card",
                 "pages": [
+                  "account/increase-degrade-a-plan",
                   "account/reset-billing-password",
                   "account/reset-the-panel-password"
                 ]
