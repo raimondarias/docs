@@ -39,6 +39,7 @@
                 "icon": "address-card",
                 "pages": [
                   "account/increase-degrade-a-plan",
+                  "account/log-in-automatically-to-the-vps-panel",
                   "account/reset-billing-password",
                   "account/reset-the-panel-password"
                 ]
