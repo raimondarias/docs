@@ -1,5 +1,5 @@
 ---
-title: "Cómo conectar tu Dominio a tu Servidor de Minecraft"
+title: "Cómo conectar tu Dominio a tu Servidor"
 description: "Guía para configurar los registros DNS (A y SRV) en Cloudflare para que tus jugadores se conecten usando un dominio fácil de recordar (ej. tudominio.com o jugar.tudominio.com)."
 sidebarTitle: "Conectar tu Dominio"
 ---
@@ -20,19 +20,19 @@ sidebarTitle: "Conectar tu Dominio"
 
 Este registro apuntará tu subdominio (o dominio principal) a la **IP** de tu servidor.
 
-1. Haz clic en **Add Record**.
+1. Haz clic en **"Add Record"**.
 2. Configura el registro con los siguientes valores:
    - **Tipo:** `A`
    - **Nombre:** El **subdominio** que quieras usar (ej. `jugar`). Si quieres usar el dominio raíz, escribe `@`.
    - **Dirección IPv4:** La **IP** de tu servidor.
    - **Estado del Proxy:** Haz clic en el ícono de la nube hasta que esté **gris (Solo DNS)**. Esto es crucial, ya que Cloudflare no admite el tráfico de Minecraft a través de su proxy.
-3. Haz clic en **Save**.
+3. Haz clic en **"Save"**.
 
 ### Añade un Registro SRV
 
 Este registro le dirá a Minecraft el puerto específico de tu servidor, permitiendo una conexión más sencilla.
 
-1. Haz clic nuevamente en **Add Record**.
+1. Haz clic nuevamente en **"Add Record"**.
 2. Configura el registro con los siguientes valores:
    - **Tipo:** `SRV`
    - **Nombre:** `_minecraft._tcp.tunombre` (reemplaza `tunombre` con el subdominio del Paso 2, ej. `_minecraft._tcp.jugar`). Si usaste `@` para el dominio raíz, simplemente pon `@`.
@@ -41,7 +41,7 @@ Este registro le dirá a Minecraft el puerto específico de tu servidor, permiti
    - **Puerto:** El **número del puerto** de tu servidor de Minecraft (ej. `25565`).
    - **Destino:** La **IP o subdominio de tu servidor** (ej. `mia1.apple.xerosrv.com` o la IP).
    - **TTL:** Deja en `Auto`.
-3. Haz clic en **Save**.
+3. Haz clic en **"Save"**.
 
 <Note>
   ### Notas y Soluciones

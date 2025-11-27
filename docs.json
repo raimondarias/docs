@@ -80,6 +80,7 @@
                   "minecraft/bedrock/change-the-difficulty",
                   "minecraft/bedrock/change-the-seed",
                   "minecraft/bedrock/change-the-version",
+                  "minecraft/bedrock/connect-your-domain",
                   "minecraft/bedrock/join-from-a-console"
                 ]
               }
