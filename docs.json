@@ -38,6 +38,7 @@
                 "group": "Account & Billing",
                 "icon": "address-card",
                 "pages": [
+                  "account/cancel-your-contract",
                   "account/increase-degrade-a-plan",
                   "account/log-in-automatically-to-the-vps-panel",
                   "account/reset-billing-password",
