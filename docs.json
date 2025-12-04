@@ -65,6 +65,7 @@
                   "minecraft/java/connect-your-domain",
                   "minecraft/java/customize-the-server",
                   "minecraft/java/disable-spawn-protection",
+                  "minecraft/java/get-operator",
                   "minecraft/java/install-and-configure-voice-chat",
                   "minecraft/java/install-geyser-floodgate",
                   "minecraft/java/one-click-mod-installation",

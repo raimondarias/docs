@@ -1,0 +1,39 @@
+---
+title: "Cómo Obtener el Rango de Operador (OP) desde la Consola"
+description: "Esta guía te enseñará cómo dar privilegios de administrador (OP) a un jugador de tu servidor de Minecraft utilizando la Consola de tu panel de control."
+sidebarTitle: "Obtener OP desde Consola"
+---
+
+<iframe src="https://www.youtube.com/embed/FWOyJfbOQR4" title="YouTube video player" frameborder="0" className="w-full aspect-video rounded-xl" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen />
+
+### Acceder a la Consola
+
+La consola es la interfaz principal para enviar comandos directamente al _backend_ del servidor.
+
+1. **Inicia sesión** en el panel de control de tu servidor de Minecraft.
+2. En el menú lateral, haz clic en la opción **Console** (Consola).
+
+### Ejecutar el Comando OP
+
+Una vez en la Consola, puedes ejecutar el comando sin necesidad de usar el prefijo `/`.
+
+1. Asegúrate de que el **servidor esté encendido** (estado **Online**).
+2. En la línea de comandos de la Consola, escribe el siguiente comando, reemplazando `[nombre_del_jugador]` por el _username_ exacto del jugador:
+
+   ```bash
+   op [nombre_del_jugador]
+   ```
+
+   _Ejemplo:_ Si el nombre del jugador es `Raimondtx`, el comando sería `op Raimondtx`
+3. Presiona **Enter** o haz clic en el botón de **Enviar** (Send/Enter) en la interfaz de la consola.
+
+### Verificación
+
+La Consola te confirmará que el comando se ha ejecutado exitosamente.
+
+- Verás un mensaje en la Consola similar a: `[Server]: Opped [nombre_del_jugador]`
+- El jugador recibirá un mensaje dentro del juego: `[Server]: You are now op!`
+
+<Note>
+  **Nota Importante** Para que el comando funcione correctamente, el jugador debe haberse conectado al servidor al menos una vez, ya que el sistema necesita tener un registro de su perfil.
+</Note>
