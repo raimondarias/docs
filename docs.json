@@ -150,39 +150,34 @@
         "icon": "box",
         "items": [
           {
-            "label": "Games Servers (US)",
+            "label": "Minecraft Servers",
             "icon": "box",
-            "href": "https://billing.xerohost.net/store/games-servers-us"
-          },
-          {
-            "label": "Games Servers (BR)",
-            "icon": "box",
-            "href": "https://billing.xerohost.net/store/games-servers-br"
-          },
-          {
-            "label": "Bot Servers",
-            "icon": "box",
-            "href": "https://billing.xerohost.net/store/bot-servers"
+            "href": "https://www.xerohost.net/minecraft"
           },
           {
             "label": "FiveM Servers",
             "icon": "box",
-            "href": "https://billing.xerohost.net/store/fivem-servers"
+            "href": "https://www.xerohost.net/fivem"
           },
           {
-            "label": "VPS Servers (US)",
+            "label": "Games Servers",
             "icon": "box",
-            "href": "https://billing.xerohost.net/store/vps-servers-us"
+            "href": "https://www.xerohost.net/games"
           },
           {
-            "label": "VPS Servers (BR)",
+            "label": "Bots Servers",
             "icon": "box",
-            "href": "https://billing.xerohost.net/store/vps-servers-br"
+            "href": "https://www.xerohost.net/bots"
+          },
+          {
+            "label": "VPS Servers",
+            "icon": "box",
+            "href": "https://www.xerohost.net/vps"
           },
           {
             "label": "Dedicated Servers",
             "icon": "box",
-            "href": "https://billing.xerohost.net/store/dedicated-servers"
+            "href": "https://www.xerohost.net/dedicated"
           }
         ]
       },
