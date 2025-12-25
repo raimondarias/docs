@@ -186,15 +186,15 @@
         "items": [
           {
             "label": "Sobre Nosotros",
-            "href": "https://www.xerohost.net/nosotros"
+            "href": "https://www.xerohost.net/about-us"
           },
           {
             "label": "Términos de servicio",
-            "href": "https://www.xerohost.net/terminos"
+            "href": "https://www.xerohost.net/terms"
           },
           {
             "label": "Política de Privacidad",
-            "href": "https://www.xerohost.net/privacidad"
+            "href": "https://www.xerohost.net/privacy"
           },
           {
             "label": "Centro de Confianza",
