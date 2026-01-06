@@ -13,13 +13,34 @@
     "tabs": [
       {
         "tab": "Inicio",
-        "pages": [
-          "index"
+        "menu": [
+          {
+            "item": "Welcome",
+            "pages": [
+              "index"
+            ]
+          },
+          {
+            "item": "Minecraft",
+            "groups": [
+              {
+                "group": "Minecraft Java",
+                "pages": [
+                  "minecraft/java/activate-the-whitelist-copied-1"
+                ]
+              },
+              {
+                "group": "Minecraft Bedrock",
+                "pages": []
+              }
+            ]
+          }
         ]
       },
       {
         "tab": "FAQ / Knowledge Base",
         "icon": "book-open",
+        "hidden": true,
         "menu": [
           {
             "item": "General & Account",
