@@ -13,25 +13,24 @@
     "tabs": [
       {
         "tab": "Inicio",
-        "menu": [
+        "dropdowns": [
           {
-            "item": "Welcome",
+            "dropdown": "Welcome",
             "pages": [
               "index"
             ]
           },
           {
-            "item": "Minecraft",
-            "groups": [
+            "dropdown": "Minecraft",
+            "anchors": [
               {
-                "group": "Minecraft Java",
+                "anchor": "Minecraft Java",
                 "pages": [
                   "minecraft/java/activate-the-whitelist-copied-1"
                 ]
               },
               {
-                "group": "Minecraft Bedrock",
-                "pages": []
+                "anchor": "Minecraft Bedrock"
               }
             ]
           }
@@ -40,7 +39,6 @@
       {
         "tab": "FAQ / Knowledge Base",
         "icon": "book-open",
-        "hidden": true,
         "menu": [
           {
             "item": "General & Account",
