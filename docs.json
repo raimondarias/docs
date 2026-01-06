@@ -228,9 +228,13 @@
   "contextual": {
     "options": [
       "copy",
+      "view",
       "chatgpt",
       "claude",
-      "perplexity"
+      "perplexity",
+      "mcp",
+      "cursor",
+      "vscode"
     ]
   },
   "errors": {
