@@ -13,27 +13,8 @@
     "tabs": [
       {
         "tab": "Inicio",
-        "dropdowns": [
-          {
-            "dropdown": "Welcome",
-            "pages": [
-              "index"
-            ]
-          },
-          {
-            "dropdown": "Minecraft",
-            "anchors": [
-              {
-                "anchor": "Minecraft Java",
-                "pages": [
-                  "minecraft/java/activate-the-whitelist-copied-1"
-                ]
-              },
-              {
-                "anchor": "Minecraft Bedrock"
-              }
-            ]
-          }
+        "pages": [
+          "index"
         ]
       },
       {
