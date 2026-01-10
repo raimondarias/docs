@@ -132,7 +132,7 @@
     ],
     "primary": {
       "type": "button",
-      "label": "Sign up",
+      "label": "Sign in",
       "icon": "arrow-right-to-bracket",
       "href": "https://billing.xerohost.net/register.php"
     }
