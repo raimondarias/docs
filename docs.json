@@ -1,12 +1,12 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "almond",
-  "name": "XeroHost Knowledge Base",
+  "name": "XeroHost",
   "description": "XeroHost Knowledge Base",
   "colors": {
-    "primary": "#ef4444",
-    "light": "#c90707",
-    "dark": "#b53c3c"
+    "primary": "#e1e1e1",
+    "light": "#ff3333",
+    "dark": "#ff3333"
   },
   "favicon": "/favicon.png",
   "navigation": {
@@ -118,10 +118,7 @@
       }
     ]
   },
-  "logo": {
-    "light": "/logo/xerohost.png",
-    "dark": "/logo/xerohost.png"
-  },
+  "logo": "/logo/xerohost.png",
   "navbar": {
     "links": [
       {
@@ -146,7 +143,7 @@
     },
     "links": [
       {
-        "header": "Productos",
+        "header": "Products",
         "icon": "box",
         "items": [
           {
@@ -182,23 +179,31 @@
         ]
       },
       {
-        "header": "Compañía",
+        "header": "Company",
         "items": [
           {
-            "label": "Sobre Nosotros",
+            "label": "About Us",
             "href": "https://www.xerohost.net/about-us"
           },
           {
-            "label": "Términos de servicio",
+            "label": "Terms of Service",
             "href": "https://www.xerohost.net/terms"
           },
           {
-            "label": "Política de Privacidad",
+            "label": "Privacy Policy",
             "href": "https://www.xerohost.net/privacy"
           },
           {
-            "label": "Centro de Confianza",
+            "label": "Trust Center",
             "href": "https://www.trustpilot.com/review/xerohost.net"
+          },
+          {
+            "label": "Affiliate Program",
+            "href": "https://www.xerohost.net/partner-program"
+          },
+          {
+            "label": "Partner Program",
+            "href": "https://www.xerohost.net/affiliate-program"
           }
         ]
       }
@@ -219,8 +224,18 @@
   "errors": {
     "404": {
       "redirect": false,
-      "title": "No me pueden encontrar",
-      "description": "¿Qué habrá sido de esta página"
+      "title": "They can't find me.",
+      "description": "What ever happened to this page?"
+    }
+  },
+  "fonts": {
+    "family": "Inter",
+    "heading": {
+      "family": "Outfit",
+      "weight": 700
+    },
+    "body": {
+      "family": "Inter"
     }
   }
 }
