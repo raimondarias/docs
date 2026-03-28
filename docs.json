@@ -5,8 +5,8 @@
   "description": "XeroHost Knowledge Base",
   "colors": {
     "primary": "#e1e1e1",
-    "light": "#e1e1e1",
-    "dark": "#ffbbbb"
+    "light": "#353535",
+    "dark": "#353535"
   },
   "favicon": "/favicon.png",
   "navigation": {
