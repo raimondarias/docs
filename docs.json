@@ -6,7 +6,7 @@
   "colors": {
     "primary": "#e1e1e1",
     "light": "#e1e1e1",
-    "dark": "#353535"
+    "dark": "#242424"
   },
   "favicon": "/favicon.png",
   "navigation": {
@@ -18,13 +18,33 @@
         ]
       },
       {
-        "tab": "FAQ / Knowledge Base",
-        "icon": "book-open",
-        "menu": [
+        "tab": "General & Account",
+        "groups": [
           {
-            "item": "General & Account",
-            "icon": "book"
+            "group": "General",
+            "icon": "book",
+            "pages": [
+              "general/connect-via-sftp",
+              "general/create-a-subdomain",
+              "general/invite-a-sub-user-to-the-control-panel"
+            ]
           },
+          {
+            "group": "Account & Billing",
+            "icon": "address-card",
+            "pages": [
+              "account/cancel-your-contract",
+              "account/increase-degrade-a-plan",
+              "account/log-in-automatically-to-the-vps-panel",
+              "account/reset-billing-password",
+              "account/reset-the-panel-password"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Minecraft",
+        "menu": [
           {
             "item": "Minecraft",
             "icon": "pickaxe",
@@ -65,7 +85,12 @@
                 ]
               }
             ]
-          },
+          }
+        ]
+      },
+      {
+        "tab": "VPS",
+        "menu": [
           {
             "item": "VPS",
             "icon": "terminal",
@@ -82,29 +107,7 @@
         ]
       },
       {
-        "tab": "General & Account",
-        "groups": [
-          {
-            "group": "General",
-            "icon": "book",
-            "pages": [
-              "general/connect-via-sftp",
-              "general/create-a-subdomain",
-              "general/invite-a-sub-user-to-the-control-panel"
-            ]
-          },
-          {
-            "group": "Account & Billing",
-            "icon": "address-card",
-            "pages": [
-              "account/cancel-your-contract",
-              "account/increase-degrade-a-plan",
-              "account/log-in-automatically-to-the-vps-panel",
-              "account/reset-billing-password",
-              "account/reset-the-panel-password"
-            ]
-          }
-        ]
+        "tab": "Games"
       }
     ]
   },
