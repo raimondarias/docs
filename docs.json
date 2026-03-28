@@ -44,46 +44,40 @@
       },
       {
         "tab": "Minecraft",
-        "menu": [
+        "groups": [
           {
-            "item": "Minecraft",
+            "group": "Minecraft Java",
             "icon": "pickaxe",
-            "groups": [
-              {
-                "group": "Minecraft Java",
-                "icon": "pickaxe",
-                "pages": [
-                  "minecraft/java/activate-the-whitelist",
-                  "minecraft/java/add-a-datapack",
-                  "minecraft/java/allow-non-premium-players",
-                  "minecraft/java/change-the-difficulty",
-                  "minecraft/java/change-the-seed",
-                  "minecraft/java/change-the-version",
-                  "minecraft/java/change-the-view-distance-and-simulation-distance",
-                  "minecraft/java/connect-your-domain",
-                  "minecraft/java/customize-the-server",
-                  "minecraft/java/disable-spawn-protection",
-                  "minecraft/java/get-operator",
-                  "minecraft/java/install-and-configure-voice-chat",
-                  "minecraft/java/install-geyser-floodgate",
-                  "minecraft/java/one-click-mod-installation",
-                  "minecraft/java/one-click-plugin-installation",
-                  "minecraft/java/restore-the-world"
-                ]
-              },
-              {
-                "group": "Minecraft Bedrock",
-                "icon": "cube",
-                "pages": [
-                  "minecraft/bedrock/activate-the-coordinates",
-                  "minecraft/bedrock/activate-the-whitelist",
-                  "minecraft/bedrock/change-the-difficulty",
-                  "minecraft/bedrock/change-the-seed",
-                  "minecraft/bedrock/change-the-version",
-                  "minecraft/bedrock/connect-your-domain",
-                  "minecraft/bedrock/join-from-a-console"
-                ]
-              }
+            "pages": [
+              "minecraft/java/activate-the-whitelist",
+              "minecraft/java/add-a-datapack",
+              "minecraft/java/allow-non-premium-players",
+              "minecraft/java/change-the-difficulty",
+              "minecraft/java/change-the-seed",
+              "minecraft/java/change-the-version",
+              "minecraft/java/change-the-view-distance-and-simulation-distance",
+              "minecraft/java/connect-your-domain",
+              "minecraft/java/customize-the-server",
+              "minecraft/java/disable-spawn-protection",
+              "minecraft/java/get-operator",
+              "minecraft/java/install-and-configure-voice-chat",
+              "minecraft/java/install-geyser-floodgate",
+              "minecraft/java/one-click-mod-installation",
+              "minecraft/java/one-click-plugin-installation",
+              "minecraft/java/restore-the-world"
+            ]
+          },
+          {
+            "group": "Minecraft Bedrock",
+            "icon": "cube",
+            "pages": [
+              "minecraft/bedrock/activate-the-coordinates",
+              "minecraft/bedrock/activate-the-whitelist",
+              "minecraft/bedrock/change-the-difficulty",
+              "minecraft/bedrock/change-the-seed",
+              "minecraft/bedrock/change-the-version",
+              "minecraft/bedrock/connect-your-domain",
+              "minecraft/bedrock/join-from-a-console"
             ]
           }
         ]
