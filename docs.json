@@ -1,11 +1,11 @@
 {
   "$schema": "https://mintlify.com/docs.json",
-  "theme": "almond",
+  "theme": "aspen",
   "name": "XeroHost",
   "description": "XeroHost Knowledge Base",
   "colors": {
     "primary": "#e1e1e1",
-    "light": "#353535",
+    "light": "#e1e1e1",
     "dark": "#353535"
   },
   "favicon": "/favicon.png",
@@ -23,29 +23,7 @@
         "menu": [
           {
             "item": "General & Account",
-            "icon": "book",
-            "groups": [
-              {
-                "group": "General",
-                "icon": "book",
-                "pages": [
-                  "general/connect-via-sftp",
-                  "general/create-a-subdomain",
-                  "general/invite-a-sub-user-to-the-control-panel"
-                ]
-              },
-              {
-                "group": "Account & Billing",
-                "icon": "address-card",
-                "pages": [
-                  "account/cancel-your-contract",
-                  "account/increase-degrade-a-plan",
-                  "account/log-in-automatically-to-the-vps-panel",
-                  "account/reset-billing-password",
-                  "account/reset-the-panel-password"
-                ]
-              }
-            ]
+            "icon": "book"
           },
           {
             "item": "Minecraft",
@@ -104,17 +82,29 @@
         ]
       },
       {
-        "tab": "Control Panel",
-        "href": "https://panel.xerohost.net"
-      },
-      {
-        "tab": "VPS Panel",
-        "href": "https://vps.xerohost.net"
-      },
-      {
-        "tab": "Discord",
-        "icon": "discord",
-        "href": "https://discord.gg/xerohost"
+        "tab": "General & Account",
+        "groups": [
+          {
+            "group": "General",
+            "icon": "book",
+            "pages": [
+              "general/connect-via-sftp",
+              "general/create-a-subdomain",
+              "general/invite-a-sub-user-to-the-control-panel"
+            ]
+          },
+          {
+            "group": "Account & Billing",
+            "icon": "address-card",
+            "pages": [
+              "account/cancel-your-contract",
+              "account/increase-degrade-a-plan",
+              "account/log-in-automatically-to-the-vps-panel",
+              "account/reset-billing-password",
+              "account/reset-the-panel-password"
+            ]
+          }
+        ]
       }
     ]
   },
@@ -125,6 +115,14 @@
         "label": "Login",
         "icon": "arrow-right-to-bracket",
         "href": "https://billing.xerohost.net/login"
+      },
+      {
+        "label": "Control Panel",
+        "href": "https://panel.xerohost.net/"
+      },
+      {
+        "label": "VPS Panel",
+        "href": "https://vps.xerohost.net/"
       }
     ],
     "primary": {
@@ -227,5 +225,13 @@
       "title": "They can't find me.",
       "description": "What ever happened to this page?"
     }
+  },
+  "background": {
+    "color": {
+      "dark": "#090909"
+    }
+  },
+  "appearance": {
+    "default": "dark"
   }
 }
