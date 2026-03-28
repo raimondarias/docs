@@ -5,8 +5,8 @@
   "description": "XeroHost Knowledge Base",
   "colors": {
     "primary": "#e1e1e1",
-    "light": "#ff3333",
-    "dark": "#ff3333"
+    "light": "#e1e1e1",
+    "dark": "#e1e1e1"
   },
   "favicon": "/favicon.png",
   "navigation": {
@@ -226,16 +226,6 @@
       "redirect": false,
       "title": "They can't find me.",
       "description": "What ever happened to this page?"
-    }
-  },
-  "fonts": {
-    "family": "Inter",
-    "heading": {
-      "family": "Outfit",
-      "weight": 700
-    },
-    "body": {
-      "family": "Inter"
     }
   }
 }
