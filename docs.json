@@ -148,18 +148,7 @@
       "description": "What ever happened to this page?"
     }
   },
-  "background": {
-    "color": {
-      "dark": "#090909"
-    }
-  },
   "appearance": {
     "default": "dark"
-  },
-  "fonts": {
-    "heading": {
-      "family": "Plus Jakarta Sans",
-      "weight": 500
-    }
   }
 }
