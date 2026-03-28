@@ -1,11 +1,11 @@
 {
   "$schema": "https://mintlify.com/docs.json",
-  "theme": "aspen",
+  "theme": "maple",
   "name": "XeroHost",
   "description": "XeroHost Knowledge Base",
   "colors": {
-    "primary": "#e1e1e1",
-    "light": "#e1e1e1",
+    "primary": "#ff3f3f",
+    "light": "#ff3f3f",
     "dark": "#242424"
   },
   "favicon": "/favicon.png",
@@ -229,5 +229,14 @@
   },
   "appearance": {
     "default": "dark"
+  },
+  "fonts": {
+    "heading": {
+      "family": "Plus Jakarta Sans",
+      "weight": 500
+    },
+    "body": {
+      "family": "Plus Jakarta Sans"
+    }
   }
 }
