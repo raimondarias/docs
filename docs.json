@@ -87,6 +87,7 @@
       },
       {
         "tab": "VPS",
+        "icon": "terminal",
         "groups": [
           {
             "group": "VPS",
@@ -100,6 +101,9 @@
       {
         "tab": "Games",
         "icon": "gamepad-modern"
+      },
+      {
+        "tab": "Test"
       }
     ]
   },
@@ -107,17 +111,19 @@
   "navbar": {
     "links": [
       {
-        "label": "Login",
-        "icon": "arrow-right-to-bracket",
-        "href": "https://billing.xerohost.net/login"
-      },
-      {
-        "label": "Control Panel",
+        "label": "Game Panel",
+        "icon": "gamepad-modern",
         "href": "https://panel.xerohost.net/"
       },
       {
         "label": "VPS Panel",
+        "icon": "terminal",
         "href": "https://vps.xerohost.net/"
+      },
+      {
+        "label": "Login",
+        "icon": "arrow-right-to-bracket",
+        "href": "https://billing.xerohost.net/login"
       }
     ],
     "primary": {
