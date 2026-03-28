@@ -87,19 +87,12 @@
       },
       {
         "tab": "VPS",
-        "icon": "terminal",
-        "menu": [
+        "groups": [
           {
-            "item": "VPS",
+            "group": "VPS",
             "icon": "terminal",
-            "groups": [
-              {
-                "group": "VPS",
-                "icon": "terminal",
-                "pages": [
-                  "vps/reset-password"
-                ]
-              }
+            "pages": [
+              "vps/reset-password"
             ]
           }
         ]
