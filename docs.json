@@ -6,7 +6,7 @@
   "colors": {
     "primary": "#e1e1e1",
     "light": "#e1e1e1",
-    "dark": "#e1e1e1"
+    "dark": "#ffbbbb"
   },
   "favicon": "/favicon.png",
   "navigation": {
