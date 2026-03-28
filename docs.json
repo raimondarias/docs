@@ -103,7 +103,8 @@
         "icon": "gamepad-modern"
       },
       {
-        "tab": "Test"
+        "tab": "Test",
+        "hidden": true
       }
     ]
   },
