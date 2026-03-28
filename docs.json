@@ -13,12 +13,14 @@
     "tabs": [
       {
         "tab": "Inicio",
+        "icon": "house",
         "pages": [
           "index"
         ]
       },
       {
         "tab": "General & Account",
+        "icon": "address-card",
         "groups": [
           {
             "group": "General",
@@ -44,6 +46,7 @@
       },
       {
         "tab": "Minecraft",
+        "icon": "pickaxe",
         "groups": [
           {
             "group": "Minecraft Java",
@@ -84,6 +87,7 @@
       },
       {
         "tab": "VPS",
+        "icon": "terminal",
         "menu": [
           {
             "item": "VPS",
@@ -101,7 +105,8 @@
         ]
       },
       {
-        "tab": "Games"
+        "tab": "Games",
+        "icon": "gamepad-modern"
       }
     ]
   },
