@@ -126,13 +126,7 @@
         "icon": "arrow-right-to-bracket",
         "href": "https://billing.xerohost.net/login"
       }
-    ],
-    "primary": {
-      "type": "button",
-      "label": "Sign in",
-      "icon": "arrow-right-to-bracket",
-      "href": "https://billing.xerohost.net/register.php"
-    }
+    ]
   },
   "footer": {
     "socials": {
