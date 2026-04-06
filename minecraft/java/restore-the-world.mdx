@@ -5,8 +5,10 @@ sidebarTitle: "Restablecer el Mundo"
 icon: "arrow-rotate-left"
 ---
 
+<iframe src="https://www.youtube.com/embed/CqWJScvYj5Y" title="YouTube video player" frameborder="0" className="w-full aspect-video rounded-xl" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen />
+
 <Warning>
-  ### Haz una Copia de Seguridad (Opcional)
+  **Haz una Copia de Seguridad (Opcional)**
 
   Antes de eliminar cualquier archivo, es **CRUCIAL** que hagas una copia de seguridad de tu mundo actual. Si no lo haces, perderás todo el progreso, construcciones y datos de los jugadores de forma irreversible.
 
@@ -18,19 +20,28 @@ icon: "arrow-rotate-left"
 
 Para evitar la corrupción de archivos, el servidor debe estar completamente apagado antes de que realices cualquier cambio. No lo dejes en modo "reiniciar", ya que esto puede causar problemas.
 
-1. En el menú de la izquierda, dirígete a la sección **"Console"**, haz clic en el botón **"Stop"** para detener el servidor.
+1. En las opciones de arriba, haz clic en el botón **"Stop"** para detener el servidor.
+   <Frame>
+     ![Console](/images/games/console.png)
+   </Frame>
 2. Espera a que la consola confirme que el servidor está completamente detenido.
 
 ### Elimina los Archivos del Mundo
 
 Ahora es el momento de eliminar los archivos que contienen la información de tu mundo actual. El nombre predeterminado de la carpeta del mundo es `world`, pero si lo cambiaste, busca el nombre que configuraste en el archivo `server.properties`.
 
-1. Dirígete a la sección de **"Archivos"** o **"Files"**.
+1. Dirígete a la sección de **"Archivos"** o **"Files"**.\\
+   <Frame>
+     ![Files](/images/games/files.png)
+   </Frame>
 2. Localiza la carpeta principal de tu mundo (ej. `/home/container/world`).
 3. Luego eliminas las siguientes carpetas (elimínalas todas para un reinicio completo):
    - `world` (mundo principal)
    - `world_nether` (dimensión del Nether)
-   - `world_the_end` (dimensión del End)
+   - `world_the_end` (dimensión del End)\
+     <Frame>
+       ![Image](/images/games/files-world.png)
+     </Frame>
 4. **Selecciona todas las carpetas y archivos del mundo** y utiliza la opción **"Eliminar"** o **"Delete"**.
 
 ### Inicia tu Servidor
