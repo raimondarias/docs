@@ -1,12 +1,12 @@
 {
   "$schema": "https://mintlify.com/docs.json",
-  "theme": "aspen",
+  "theme": "mint",
   "name": "XeroHost",
   "description": "XeroHost Knowledge Base",
   "colors": {
-    "primary": "#ff3f3f",
-    "light": "#ff3f3f",
-    "dark": "#242424"
+    "primary": "#ff4141",
+    "light": "#ff4141",
+    "dark": "#000000"
   },
   "favicon": "/favicon.png",
   "navigation": {
@@ -123,7 +123,7 @@
         "href": "https://vps.xerohost.net/"
       },
       {
-        "label": "Login",
+        "label": "Log In",
         "icon": "arrow-right-to-bracket",
         "href": "https://billing.xerohost.net/login"
       }
@@ -149,6 +149,7 @@
     }
   },
   "appearance": {
-    "default": "dark"
+    "default": "dark",
+    "strict": false
   }
 }
