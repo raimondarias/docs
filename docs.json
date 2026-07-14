@@ -46,7 +46,7 @@
         ]
       },
       {
-        "tab": "Minecraft",
+        "tab": "Minecraft Java",
         "icon": "pickaxe",
         "groups": [
           {
@@ -70,11 +70,6 @@
               "minecraft/java/one-click-plugin-installation",
               "minecraft/java/restore-the-world"
             ]
-          },
-          {
-            "group": "Minecraft Bedrock",
-            "icon": "cube",
-            "pages": []
           }
         ]
       },
