@@ -83,7 +83,10 @@
       }
     ]
   },
-  "logo": "/logo/xerohost.png",
+  "logo": {
+    "light": "/logo/logo-dark.png",
+    "dark": "/logo/xerohost.png"
+  },
   "navbar": {
     "links": [
       {
