@@ -70,7 +70,6 @@
         "tab": "Minecraft Bedrock",
         "icon": "block-brick",
         "pages": [
-          "test",
           "minecraft/bedrock/activate-the-coordinates",
           "minecraft/bedrock/activate-the-whitelist",
           "minecraft/bedrock/change-the-difficulty",
