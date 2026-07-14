@@ -51,25 +51,25 @@
         "pages": [
           "minecraft/java/activate-the-whitelist",
           "minecraft/java/add-a-datapack",
+          "minecraft/java/install-and-configure-voice-chat",
           "minecraft/java/allow-non-premium-players",
+          "minecraft/java/restore-the-world",
           "minecraft/java/change-the-seed",
+          "minecraft/java/install-geyser-floodgate",
           "minecraft/java/change-the-version",
           "minecraft/java/change-the-view-distance-and-simulation-distance",
           "minecraft/java/connect-your-domain",
           "minecraft/java/customize-the-server",
+          "minecraft/java/one-click-mod-installation",
+          "minecraft/java/one-click-plugin-installation",
+          "minecraft/java/change-the-difficulty",
+          "minecraft/java/disable-spawn-protection",
+          "minecraft/java/get-operator",
           {
             "group": "Minecraft Java",
             "icon": "pickaxe",
-            "pages": [
-              "minecraft/java/get-operator",
-              "minecraft/java/install-and-configure-voice-chat",
-              "minecraft/java/install-geyser-floodgate",
-              "minecraft/java/one-click-mod-installation",
-              "minecraft/java/one-click-plugin-installation",
-              "minecraft/java/restore-the-world",
-              "minecraft/java/change-the-difficulty",
-              "minecraft/java/disable-spawn-protection"
-            ]
+            "pages": [],
+            "hidden": true
           }
         ]
       },
