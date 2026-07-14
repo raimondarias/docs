@@ -20,7 +20,7 @@
       },
       {
         "tab": "General",
-        "icon": "address-card",
+        "icon": "layer",
         "pages": [
           "general/payment-method",
           "general/connect-via-sftp",
@@ -110,10 +110,6 @@
       "chatgpt",
       "claude",
       "perplexity",
-      "mcp",
-      "cursor",
-      "vscode",
-      "devin-mcp",
       "grok"
     ]
   },
