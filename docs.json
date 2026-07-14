@@ -36,7 +36,8 @@
           "account/log-in-automatically-to-the-vps-panel",
           "account/reset-billing-password",
           "account/reset-the-panel-password"
-        ]
+        ],
+        "icon": "user"
       },
       {
         "tab": "Minecraft Java",
