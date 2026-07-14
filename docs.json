@@ -85,7 +85,8 @@
   },
   "logo": {
     "light": "/logo/logo-dark.png",
-    "dark": "/logo/xerohost.png"
+    "dark": "/logo/xerohost.png",
+    "href": "https://www.xerohost.net"
   },
   "navbar": {
     "links": [
