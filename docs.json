@@ -111,7 +111,9 @@
       "perplexity",
       "mcp",
       "cursor",
-      "vscode"
+      "vscode",
+      "devin-mcp",
+      "grok"
     ]
   },
   "errors": {
