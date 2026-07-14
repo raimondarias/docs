@@ -57,13 +57,7 @@
           "minecraft/java/one-click-plugin-installation",
           "minecraft/java/change-the-difficulty",
           "minecraft/java/disable-spawn-protection",
-          "minecraft/java/get-operator",
-          {
-            "group": "Minecraft Java",
-            "icon": "pickaxe",
-            "pages": [],
-            "hidden": true
-          }
+          "minecraft/java/get-operator"
         ]
       },
       {
