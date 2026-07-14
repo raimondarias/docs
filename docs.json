@@ -19,24 +19,13 @@
         ]
       },
       {
-        "tab": "General & Account",
+        "tab": "General",
         "icon": "address-card",
-        "groups": [
-          {
-            "group": "General",
-            "icon": "book",
-            "pages": [
-              "general/payment-method",
-              "general/connect-via-sftp",
-              "general/create-a-subdomain",
-              "general/invite-a-sub-user-to-the-control-panel"
-            ]
-          },
-          {
-            "group": "Account & Billing",
-            "icon": "address-card",
-            "pages": []
-          }
+        "pages": [
+          "general/payment-method",
+          "general/connect-via-sftp",
+          "general/create-a-subdomain",
+          "general/invite-a-sub-user-to-the-control-panel"
         ]
       },
       {
