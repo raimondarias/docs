@@ -87,6 +87,14 @@
         ]
       },
       {
+        "tab": "Minecraft Bedrock",
+        "icon": "block-brick",
+        "hidden": true,
+        "pages": [
+          "test"
+        ]
+      },
+      {
         "tab": "VPS",
         "icon": "terminal",
         "groups": [
@@ -102,10 +110,6 @@
       {
         "tab": "Games",
         "icon": "gamepad-modern"
-      },
-      {
-        "tab": "Test",
-        "hidden": true
       }
     ]
   },
